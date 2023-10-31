@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.hover_line {
+    position: relative;
+}
+
+.hover_line::after {
+    position: absolute;
+    content: "";
+    border-radius: 10px;
+    background: linear-gradient(97.08deg,
+            #002eff 0%,
+            #0085ff 49.24%,
+            #000aff 95.5%);
+    width: 0%;
+    height: 3px;
+    bottom: -7px;
+    right: 0;
+    transition: all 0.3s linear;
+}
+
+.transition_3_linear {
+    transition: all 0.3s linear;
+}
+
+.hover_line:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 15;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    z-index: 15;
+    opacity: 0.7;
+}
+
+.hamburger-2 {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 15;
+}
+
+.hamburger-2 .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-2 .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-2 .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.py_12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav_btn_color:hover {
+    background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
+    color: white;
+}
+
+.hero_linear {
+    background: linear-gradient(180deg, rgba(44, 185, 233, 0.30) 0%, rgba(98, 104, 250, 0.30) 23.05%, rgba(255, 255, 255, 0.30) 71.54%, rgba(255, 255, 255, 0.30) 103.55%);
+}
+
+.text-linear {
+    background: var(--Linear-two, linear-gradient(91deg, #994FFF 0.27%, #4AB6FE 98.57%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 992px) {
+    .mobile_ul {
+        position: fixed;
+        background: rgba(110, 108, 108, 0.801);
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        align-items: center;
+        gap: 20px;
+        z-index: 12;
+        transition: all .3s linear;
+        justify-content: center;
+    }
+
+    .hide {
+        bottom: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .custom_container {
+        max-width: 1140px !important;
+    }
+
+
+}

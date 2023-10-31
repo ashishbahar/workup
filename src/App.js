@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+import Hero from "./components/Hero";
+
 function App() {
-  return <></>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
