@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.MY-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+:root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-xmd: 18px;
+    --fs-md: 20px;
+    --fs-xlg: 24px;
+    --fs-lg: 40px;
+    --fs-xl: 54px;
+    --text-ffffff: #ffffff;
+    --text-111223: #111223;
+    --text-1C1D1D: #1C1D1D;
+    --text-111: #111;
+    --text-000000: #000000;
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_xmd {
+    font-size: var(--fs-xmd);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_xlg {
+    font-size: var(--fs-xlg);
+}
+
+.fs_lg {
+    font-size: var(--fs-xlg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.text_ffffff {
+    color: var(--text-ffffff);
+}
+
+.text_111223 {
+    color: var(--text-111223);
+}
+
+.text_111 {
+    color: var(--text-111);
+}
+
+.text_1C1D1D {
+    color: var(--text-1C1D1D);
+}
+
+.text_000000 {
+    color: var(--text-000000);
+}
+
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.ff_outfit {
+    font-family: ' Outfit' !important;
+}
+
+.ff_Inter {
+    font-family: 'Inter' !important;
+}
+
+.ff_Raleway {
+    font-family: 'Raleway' !important;
+}
+
+.ff_opensans {
+    font-family: 'Open Sans' !important;
+}
