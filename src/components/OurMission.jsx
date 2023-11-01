@@ -1,14 +1,16 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Group from "../assets/images/png2/group_discuss.png"
+import Group_two from "../assets/images/png2/group_Two.png"
 
 const OurMission = () => {
   return (
-   <section className='Bg-sky'>
+   <section className='Bg-sky position-relative'>
+    <img className='position_Our' src={Group_two} alt="#" />
       <Container className='custom_container'>
         <Row className='align-items-center'>
           <Col lg={6}>
-               <img className='padding_Y w-100' src={Group} alt="Group" />
+               <img className='Our_padding w-100' src={Group} alt="Group" />
           </Col>
 
           <Col lg={6} className='d-flex flex-column align-items-end'>
