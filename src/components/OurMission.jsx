@@ -1,11 +1,20 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
+import Group from ""
 
 const OurMission = () => {
   return (
    <section>
       <Container>
-        shgsghgfhgfhsg
+        <Row>
+          <Col lg={6}>
+               <img src={Group} alt="Group" />
+          </Col>
+
+          <Col lg={6} >
+          </Col>
+
+        </Row>
       </Container>
    </section>
   )
