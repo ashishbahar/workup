@@ -60,30 +60,7 @@ const Feature = () => {
                   </Col>
                 );
               })}
-          </Row>{" "}
-          {/* <Row className=" pt-4 justify-content-center">
-            {FeatureDataThirdline &&
-              FeatureDataThirdline.map((Obj, i) => {
-                return (
-                  <Col lg={3} md={6}>
-                    <div
-                      key={i}
-                      className=" h-100 feature_box  transition_3_linear"
-                    >
-                      {Obj.SvgIcon}
-                      <div className=" pt-4">
-                        <p className=" text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
-                          {Obj.Heading}
-                        </p>
-                        <p className=" text_darkgray leading-150 ff_Inter fw-normal fs_sm text_ mb-0 pt-2">
-                          {Obj.Para}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                );
-              })}
-          </Row> */}
+          </Row>
         </div>
       </Container>
     </div>

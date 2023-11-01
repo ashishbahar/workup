@@ -6,6 +6,7 @@ import Feature from "./components/Feature";
 import Solution from "./components/Solution";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Problem from "./components/Problem";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Feature />
       <OurMission />
       <Solution />
-      
+      <Problem />
     </div>
   );
 }

@@ -129,6 +129,10 @@ input {
     line-height: 120%;
 }
 
+.leading-150 {
+    line-height: 150%;
+}
+
 ::placeholder {
     font-family: "Inter";
     font-size: var(--fs-sm);
@@ -165,6 +169,23 @@ input {
 .feature_box:hover {
     border: 1px solid rgba(249, 247, 247, 0.1);
     box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+.slider_box {
+    padding: 39px 22px 39px 25px;
+    border-radius: 12px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.slider_box:hover {
+    border: 1px solid rgba(249, 247, 247, 0.1);
+    box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.10);
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 @media (max-width: 470px) {
