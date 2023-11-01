@@ -218,6 +218,7 @@ export const TransAccounts = () => {
     </svg>
   );
 };
+<<<<<<< HEAD
 
 export const CardsBudgets = () => {
   return (
@@ -533,5 +534,13 @@ export const Billpay = () => {
         </linearGradient>
       </defs>
     </svg>
+=======
+export const TransAccou = () => {
+  return (
+    <svg width="160" height="5" viewBox="0 0 160 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.16797 2.5H157.857" stroke="#2ABAE9" stroke-width="4" stroke-linecap="round"/>
+</svg>
+
+>>>>>>> 164a026f1454e53f4dfc6d4d9632ced0c90edd40
   );
 };

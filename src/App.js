@@ -2,13 +2,15 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Hero from "./components/Hero";
-import Feature from "./components/Feature";
+import OurMission from "./components/OurMission";
+import Solution from "./components/Solution";
 
 function App() {
   return (
     <div>
       <Hero />
-      <Feature />
+      <OurMission/>
+      <Solution/>
     </div>
   );
 }

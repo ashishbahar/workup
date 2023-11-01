@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
-
-
 :root {
     --fs-xsm: 14px;
     --fs-sm: 14px;
@@ -91,6 +89,27 @@
     color: var(--text-darkgray);
 }
 
+.Bg-sky {
+    background-color: #F7FCFE;
+}
+
+.Paragraph {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.line_Blue {
+    max-width: 155.689px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 50px;
+    background-color: var(--text-blue);
+}
+
 @media (min-width: 1200px) {
     :root {
         --fs-xsm: 14px;
@@ -100,12 +119,20 @@
         --fs-xlg: 24px;
         --fs-lg: 40px;
         --fs-xl: 54px;
-        --text-white: #ffffff;
-        --text-lightblue: #111223;
-        --text-lightblack: #1C1D1D;
-        --text-darkblack: #111;
-        --text-black: #000000;
-        --text-blue: #2ABAE9;
-        --text-darkgray: #4d4d4d;
+    }
+}
+
+@media (min-width:992px) {
+    .Ourmax {
+        max-width: 446.352px;
+    }
+
+    .Solution_max {
+        max-width: 459px;
+    }
+
+    .padding_Y {
+        padding-top: 84px;
+        padding-bottom: 85px;
     }
 }
