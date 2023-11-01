@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import Group from ""
+import Group from "../assets/images/png/"
 
 const OurMission = () => {
   return (
