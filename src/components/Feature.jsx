@@ -9,7 +9,7 @@ import {
 const Feature = () => {
   return (
     <div className=" py-5 ">
-      <Container className=" custom_container sm:py-5">
+      <Container className=" custom_container py-sm-5 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">

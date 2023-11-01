@@ -5,7 +5,7 @@ import Group from "../assets/images/png2/group_discuss.png"
 const OurMission = () => {
   return (
    <section className='Bg-sky'>
-      <Container>
+      <Container className='custom_container'>
         <Row className='align-items-center'>
           <Col lg={6}>
                <img className='padding_Y w-100' src={Group} alt="Group" />

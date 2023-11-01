@@ -7,7 +7,7 @@ import VALUES from "../assets/images/png2/Values.png"
 const Solution = () => {
   return (
    <section>
-       <Container>
+       <Container className='custom_container'>
           <Row className='align-items-center flex-column-reverse flex-lg-row'>
              <Col lg={6}>
                <div className='line_Blue'></div>
