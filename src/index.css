@@ -142,7 +142,7 @@ input {
 @media (max-width: 992px) {
     .mobile_ul {
         position: fixed;
-        background: rgba(110, 108, 108, 0.801);
+        background: rgb(216, 216, 216);
         height: 100vh;
         width: 100%;
         left: 0;
