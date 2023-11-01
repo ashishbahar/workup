@@ -15,6 +15,7 @@
     --text-1C1D1D: #1C1D1D;
     --text-111: #111;
     --text-black: #000000;
+    --text-blue: #2ABAE9;
 }
 
 .fs_xsm {
@@ -63,6 +64,10 @@
 
 .text_black {
     color: var(--text-black);
+}
+
+.text_blue {
+    color: var(--text-blue);
 }
 
 .ff_outfit {

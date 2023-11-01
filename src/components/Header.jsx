@@ -52,7 +52,7 @@ const Header = () => {
 
             <button
               onClick={() => setNav(true)}
-              className="ms-lg-3 transition_3_linear border-0 outline-0 bg-white py_12 px-4 rounded-5 nav_btn_color"
+              className="ms-lg-3 text_blue ff_Inter fs_sm fw-semibold text-capitalize transition_3_linear border-0 outline-0 bg-white py_12 px-4 rounded-5 nav_btn_color"
             >
               Log In
             </button>

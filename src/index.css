@@ -17,10 +17,7 @@
     position: absolute;
     content: "";
     border-radius: 10px;
-    background: linear-gradient(97.08deg,
-            #002eff 0%,
-            #0085ff 49.24%,
-            #000aff 95.5%);
+    background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
     width: 0%;
     height: 3px;
     bottom: -7px;
@@ -109,6 +106,10 @@
 
 input {
     outline: none !important;
+    font-family: "Inter";
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.60);
 }
 
 .hero_input {
@@ -125,6 +126,18 @@ input {
 .opacity_07 {
     opacity: .7;
 }
+
+.leading_120 {
+    line-height: 120%;
+}
+
+::placeholder {
+    font-family: "Inter";
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.60);
+}
+
 
 @media (max-width: 992px) {
     .mobile_ul {
