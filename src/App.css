@@ -26,10 +26,11 @@
     --fs-lg: 40px;
     --fs-xl: 54px;
     --text-ffffff: #ffffff;
-    --text-111223: #111223;
-    --text-1C1D1D: #1C1D1D;
-    --text-111: #111;
-    --text-000000: #000000;
+    --text-lightblue: #111223;
+    --text-lightblack: #1C1D1D;
+    --text-darkblack: #111;
+    --text-black: #000000;
+    --text-blue: #2ABAE9;
 }
 
 .fs_xsm {
@@ -64,25 +65,28 @@
     color: var(--text-ffffff);
 }
 
-.text_111223 {
-    color: var(--text-111223);
+.text_lightblue {
+    color: var(--text-lightbue);
 }
 
-.text_111 {
-    color: var(--text-111);
+.text_darkblack {
+    color: var(--text-darkblack);
 }
 
-.text_1C1D1D {
-    color: var(--text-1C1D1D);
+.text_lightblack {
+    color: var(--text-lightblack);
 }
 
-.text_000000 {
-    color: var(--text-000000);
+.text_black {
+    color: var(--text-black);
 }
 
+.text_blue {
+    color: var(--text-blue);
+}
 
 .ff_outfit {
-    font-family: ' Outfit' !important;
+    font-family: "Outfit" !important;
 }
 
 .ff_Inter {

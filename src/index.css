@@ -17,10 +17,7 @@
     position: absolute;
     content: "";
     border-radius: 10px;
-    background: linear-gradient(97.08deg,
-            #002eff 0%,
-            #0085ff 49.24%,
-            #000aff 95.5%);
+    background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
     width: 0%;
     height: 3px;
     bottom: -7px;
@@ -86,6 +83,16 @@
     color: white;
 }
 
+.hero_btn {
+    border-radius: 35px;
+    padding: 7px 23px 10px;
+    background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
+}
+
+.hero_btn:hover .translate_x {
+    transform: translateX(5px);
+}
+
 .hero_linear {
     background: linear-gradient(180deg, rgba(44, 185, 233, 0.30) 0%, rgba(98, 104, 250, 0.30) 23.05%, rgba(255, 255, 255, 0.30) 71.54%, rgba(255, 255, 255, 0.30) 103.55%);
 }
@@ -97,10 +104,45 @@
     -webkit-text-fill-color: transparent;
 }
 
+input {
+    outline: none !important;
+    font-family: "Inter";
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.hero_input {
+    max-width: 464px;
+    border-radius: 100px;
+    border: 1px solid var(--Linear-two, #994FFF);
+    background: #FFF;
+}
+
+.w-85 {
+    width: 85% !important;
+}
+
+.opacity_07 {
+    opacity: .7;
+}
+
+.leading_120 {
+    line-height: 120%;
+}
+
+::placeholder {
+    font-family: "Inter";
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+
 @media (max-width: 992px) {
     .mobile_ul {
         position: fixed;
-        background: rgba(110, 108, 108, 0.801);
+        background: rgb(216, 216, 216);
         height: 100vh;
         width: 100%;
         left: 0;
