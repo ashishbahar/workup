@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
-
 :root {
     --fs-xsm: 14px;
-    --fs-sm: 16px;
-    --fs-xmd: 18px;
-    --fs-md: 20px;
+    --fs-sm: 14px;
+    --fs-xmd: 16px;
+    --fs-md: 16px;
     --fs-xlg: 24px;
-    --fs-lg: 40px;
+    --fs-lg: 35px;
     --fs-xl: 54px;
     --text-white: #ffffff;
     --text-lightblue: #111223;
@@ -108,7 +107,19 @@
     height: 4px;
     margin-bottom: 6px;
     border-radius: 50px;
-    background-color: var(--Blue, #2ABAE9);
+    background-color: var(--text-blue);
+}
+
+@media (min-width: 1200px) {
+    :root {
+        --fs-xsm: 14px;
+        --fs-sm: 16px;
+        --fs-xmd: 18px;
+        --fs-md: 20px;
+        --fs-xlg: 24px;
+        --fs-lg: 40px;
+        --fs-xl: 54px;
+    }
 }
 
 @media (min-width:992px) {
@@ -117,7 +128,7 @@
     }
 
     .Solution_max {
-      max-width: 459px;
+        max-width: 459px;
     }
 
     .padding_Y {
