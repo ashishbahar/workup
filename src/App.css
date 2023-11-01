@@ -25,12 +25,13 @@
     --fs-xlg: 24px;
     --fs-lg: 40px;
     --fs-xl: 54px;
-    --text-ffffff: #ffffff;
+    --text-white: #ffffff;
     --text-lightblue: #111223;
     --text-lightblack: #1C1D1D;
     --text-darkblack: #111;
     --text-black: #000000;
     --text-blue: #2ABAE9;
+    --text-darkgray: #4d4d4d;
 }
 
 .fs_xsm {
@@ -54,15 +55,15 @@
 }
 
 .fs_lg {
-    font-size: var(--fs-xlg);
+    font-size: var(--fs-lg);
 }
 
 .fs_xl {
     font-size: var(--fs-xl);
 }
 
-.text_ffffff {
-    color: var(--text-ffffff);
+.text_white {
+    color: var(--text-white);
 }
 
 .text_lightblue {
@@ -99,4 +100,8 @@
 
 .ff_opensans {
     font-family: 'Open Sans' !important;
+}
+
+.text_darkgray {
+    color: var(--text-darkgray);
 }

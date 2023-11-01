@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import pagelogo from "../images/png/pagelogo.png";
+import pagelogo from "../assets/images/png/pagelogo.png";
 const Header = () => {
   const [nav, setNav] = useState(true);
   if (nav) {
