@@ -187,6 +187,8 @@ input {
     padding-left: 12px;
     padding-right: 12px;
 }
+/* .slick-prev,
+.slick-next{} */
 
 @media (max-width: 470px) {
     .w_75 {

@@ -58,7 +58,7 @@ const Feature = () => {
                       </div>
                     </div>
                   </Col>
-                );
+                )
               })}
           </Row>
         </div>
