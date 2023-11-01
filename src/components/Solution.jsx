@@ -3,10 +3,18 @@ import { Col, Container, Row } from "react-bootstrap";
 import MISSIONS from "../assets/images/png2/Missions.png";
 import VISION from "../assets/images/png2/Vision.png";
 import VALUES from "../assets/images/png2/Values.png";
+import Dots1 from "../assets/images/png2/Dots_one.png";
+import Dots2 from "../assets/images/png2/Dots_Two.png";
+import Dots3 from "../assets/images/png2/Dots_Sol.png";
+import zigzag from "../assets/images/png2/zigzag.png";
 
 const Solution = () => {
   return (
-    <section className="Solution_padding">
+    <section className="Solution_padding position-relative">
+      <img className="abs_Solution_one" src={Dots1} alt="Dots1" />
+      <img className="abs_Solution_Two" src={Dots2} alt="Dots2" />
+      <img className="abs_Solution_Three d-none d-lg-block" src={Dots3} alt="Dots3" />
+      <img className="abs_Solution_zigzag" src={zigzag} alt="zigzag" />
       <Container className="custom_container">
         <Row className="align-items-center flex-column-reverse flex-lg-row">
           <Col lg={6}>

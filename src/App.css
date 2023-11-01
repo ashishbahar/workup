@@ -155,6 +155,38 @@
     top: 0%;
 }
 
+.width_group {
+    width: 8%;
+}
+
+.abs_Solution_one {
+    position: absolute;
+    left: 0%;
+}
+
+.abs_Solution_Two {
+    position: absolute;
+    left: 9%;
+    top: 16%;
+}
+
+.abs_Solution_Three {
+    position: absolute;
+    left: 1%;
+    bottom: 24%;
+}
+
+.abs_Solution_zigzag {
+    position: absolute;
+    right: 0%;
+    top: -18%;
+}
+
+.Sol_dots_abs {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
 
 /* SOLUTION_END */
 
@@ -214,6 +246,11 @@
 
     .w-lg-position {
         width: 40%;
+    }
+
+    .Our_padding {
+        padding-top: 44px;
+        padding-bottom: 45px;
     }
 }
 
