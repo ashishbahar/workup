@@ -2,11 +2,13 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Group from "../assets/images/png2/group_discuss.png"
 import Group_two from "../assets/images/png2/group_Two.png"
+import Three_dots from "../assets/images/png2/Three_Dots.png"
 
 const OurMission = () => {
   return (
    <section className='Bg-sky position-relative'>
-    <img className='position_Our' src={Group_two} alt="#" />
+    <img className='position_Our width_group' src={Group_two} alt="#" />
+    <img className='Sol_dots_abs' src={Three_dots} alt="#" />
       <Container className='custom_container'>
         <Row className='align-items-center'>
           <Col lg={6}>
