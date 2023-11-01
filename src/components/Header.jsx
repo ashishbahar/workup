@@ -26,17 +26,26 @@ const Header = () => {
             }
           >
             <li onClick={() => setNav(true)} className="px-lg-3">
-              <a className="hover_line transition_3_linear" href="#">
+              <a
+                className="hover_line transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text-capitalize"
+                href="#"
+              >
                 Chat Room
               </a>
             </li>
             <li onClick={() => setNav(true)} className="px-lg-3">
-              <a className="hover_line transition_3_linear" href="#">
+              <a
+                className="hover_line transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text-capitalize"
+                href="#"
+              >
                 Invest
               </a>
             </li>
             <li onClick={() => setNav(true)} className="px-lg-3">
-              <a className="hover_line transition_3_linear" href="#">
+              <a
+                className="hover_line transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text-capitalize"
+                href="#"
+              >
                 Become a Co-Founder
               </a>
             </li>

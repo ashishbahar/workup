@@ -14,7 +14,7 @@
     --text-111223: #111223;
     --text-1C1D1D: #1C1D1D;
     --text-111: #111;
-    --text-000000: #000000;
+    --text-black: #000000;
 }
 
 .fs_xsm {
@@ -61,13 +61,12 @@
     color: var(--text-1C1D1D);
 }
 
-.text_000000 {
-    color: var(--text-000000);
+.text_black {
+    color: var(--text-black);
 }
 
-
 .ff_outfit {
-    font-family: ' Outfit' !important;
+    font-family: "Outfit" !important;
 }
 
 .ff_Inter {
