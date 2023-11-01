@@ -105,3 +105,39 @@
 .text_darkgray {
     color: var(--text-darkgray);
 }
+
+.Bg-sky {
+    background-color: #F7FCFE;
+}
+
+.Paragraph {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.line_Blue {
+    max-width: 155.689px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 50px;
+    background-color: var(--Blue, #2ABAE9);
+}
+
+@media (min-width:992px) {
+    .Ourmax {
+        max-width: 446.352px;
+    }
+
+    .Solution_max {
+      max-width: 459px;
+    }
+
+    .padding_Y {
+        padding-top: 84px;
+        padding-bottom: 85px;
+    }
+}

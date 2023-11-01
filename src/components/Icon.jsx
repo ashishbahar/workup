@@ -218,3 +218,11 @@ export const TransAccounts = () => {
     </svg>
   );
 };
+export const TransAccou = () => {
+  return (
+    <svg width="160" height="5" viewBox="0 0 160 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.16797 2.5H157.857" stroke="#2ABAE9" stroke-width="4" stroke-linecap="round"/>
+</svg>
+
+  );
+};
