@@ -5,7 +5,7 @@ import {
   TransAccounts,
 } from "./Icon";
 
-export const FeatureData = [
+export const FeatureDatafirstline = [
   {
     SvgIcon: <AutoRules />,
     Heading: "Auto Rules",

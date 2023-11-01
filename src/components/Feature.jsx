@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { AutoRules } from "./Icon";
-import { FeatureData } from "./Helper";
+import { FeatureDatafirstline } from "./Helper";
 
 const Feature = () => {
   return (
@@ -13,11 +12,14 @@ const Feature = () => {
             Plugs & Play Features
           </h2>
           <Row className=" mt-5 pt-2">
-            {FeatureData &&
-              FeatureData.map((Obj, i) => {
+            {FeatureDatafirstline &&
+              FeatureDatafirstline.map((Obj, i) => {
                 return (
                   <Col lg={3}>
-                    <div key={i} className=" h-100 feature_box transition_3_linear">
+                    <div
+                      key={i}
+                      className=" h-100 feature_box transition_3_linear"
+                    >
                       {Obj.SvgIcon}
                       <div className=" pt-4">
                         <p className=" text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
