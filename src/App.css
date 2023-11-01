@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
 
+}
+
+.custom_container {
+    max-width: 1140px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
 
 :root {
     --fs-xsm: 14px;
