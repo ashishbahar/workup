@@ -1,7 +1,7 @@
 import React from "react";
 import { BlueWorking, WorkingLine } from "./Iconsvg";
 import { Col, Container, Row } from "react-bootstrap";
-import Workings from "../assets/images/png2/Group (1).png";
+import Workings from "../assets/images/png2/WorkingGroup.png";
 import { WorkingData } from "./Helper";
 
 const Working = () => {
@@ -12,14 +12,14 @@ const Working = () => {
         <div className="d-flex justify-content-center mb-2">
           <BlueWorking />
         </div>
-        <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center">
+        <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center mb-0">
           How it’s working
         </h2>
-        <Row className="align-items-center mt-4">
-          <Col lg={6}>
-            <img className="w-100" src={Workings} alt="workings" />
+        <Row className="align-items-center">
+          <Col lg={6} className="d-flex justify-content-start">
+            <img className="width-90" src={Workings} alt="workings" />
           </Col>
-          <Col lg={6} className="position-relative">
+          <Col lg={6} className="position-relative pt-5 mt-4">
             <div className="positon_line d-none d-sm-block"><WorkingLine/></div>
             {WorkingData &&
               WorkingData.map((obj, i) => {
@@ -31,7 +31,7 @@ const Working = () => {
                         <h2 className="ff_outfit fs_md fw-medium text_lightblack line-height-Sign">
                           {obj.Heading}
                         </h2>
-                        <p className="ff_Inter fs_sm fw-normal text-black Para_working_width">
+                        <p className="ff_Inter fs_sm fw-normal text-black Para_working_width mb-0">
                           {obj.Para}
                         </p>
                       </div>

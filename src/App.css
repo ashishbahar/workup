@@ -307,7 +307,11 @@
 .positon_line {
     position: absolute;
     left: -6%;
-    top: 18%;
+    top: 25%;
+}
+
+.width-90 {
+    width: 90%;
 }
 
 /* WORKING END  */
@@ -414,7 +418,7 @@
     .positon_line {
         position: absolute;
         left: -7%;
-        top: 18%;
+        top: 25%;
     }
 
 }
@@ -440,8 +444,9 @@
     .positon_line {
         position: absolute;
         left: -2%;
-        top: 18%;}
-        
+        top: 25%;
+    }
+
     .line_Blue {
         margin-left: auto;
         margin-right: auto
