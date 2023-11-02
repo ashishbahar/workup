@@ -22,10 +22,10 @@ function App() {
       <OurMission />
       <Solution />
       <Waitlist />
-      <Problem />
+      <Problem /> 
+      <Working />
       <Plans />
       <Update />
-      <Working />
       <Frequently />
       <Footer />
     </div>

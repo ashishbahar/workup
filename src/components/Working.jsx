@@ -6,7 +6,7 @@ import { WorkingData } from "./Helper";
 
 const Working = () => {
   return (
-    <section className="Bg-sky">
+    <section className="Bg-sky py-lg-2">
 
       <Container className="custom_container py-5">
         <div className="d-flex justify-content-center mb-2">
@@ -15,7 +15,7 @@ const Working = () => {
         <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center mb-0">
           How it’s working
         </h2>
-        <Row className="align-items-center">
+        <Row className="align-items-center py-2 my-1">
           <Col lg={6} className="d-flex justify-content-start">
             <img className="width-90" src={Workings} alt="workings" />
           </Col>
