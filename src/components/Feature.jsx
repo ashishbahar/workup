@@ -8,8 +8,8 @@ import {
 
 const Feature = () => {
   return (
-    <div className=" py-5 ">
-      <Container className=" custom_container sm:py-5">
+    <div className=" pb-5 pt-4 pt-md-5 ">
+      <Container className=" custom_container pb-4 pb-sm-5 pt-sm-5 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">
@@ -58,32 +58,9 @@ const Feature = () => {
                       </div>
                     </div>
                   </Col>
-                );
+                )
               })}
-          </Row>{" "}
-          {/* <Row className=" pt-4 justify-content-center">
-            {FeatureDataThirdline &&
-              FeatureDataThirdline.map((Obj, i) => {
-                return (
-                  <Col lg={3} md={6}>
-                    <div
-                      key={i}
-                      className=" h-100 feature_box  transition_3_linear"
-                    >
-                      {Obj.SvgIcon}
-                      <div className=" pt-4">
-                        <p className=" text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
-                          {Obj.Heading}
-                        </p>
-                        <p className=" text_darkgray leading-150 ff_Inter fw-normal fs_sm text_ mb-0 pt-2">
-                          {Obj.Para}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                );
-              })}
-          </Row> */}
+          </Row>
         </div>
       </Container>
     </div>
