@@ -17,7 +17,7 @@ const Working = () => {
         </h2>
         <Row className="align-items-center py-2 my-1">
           <Col lg={6} className="d-flex justify-content-start">
-            <img className="width-90" src={Workings} alt="workings" />
+            <img className="width-83" src={Workings} alt="workings" />
           </Col>
           <Col lg={6} className="position-relative pt-5 mt-4">
             <div className="positon_line d-none d-sm-block"><WorkingLine/></div>
