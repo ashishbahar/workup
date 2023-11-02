@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Container, Row } from "react-bootstrap";
-import { First } from "react-bootstrap/esm/PageItem";
+import { Col, Container, Row } from "react-bootstrap";
+import desktop from "../assets/images/png/desktop.png";
 
 const Update = () => {
   const [first, setfirst] = useState(0);
@@ -39,8 +39,41 @@ const Update = () => {
             </p>
           </div>
         </div>
-        <Row>
-            
+        <Row className="py-lg-5 py-4 justify-content-lg-between justify-content-center align-items-center">
+          <Col lg={6} md={8} className="my-4 ">
+            <img className=" w-100  mx-auto " src={desktop} alt="desktop" />
+          </Col>
+          <Col lg={5}>
+            <div className="text-center text-lg-start">
+              <h3
+                className={`ff_outfit fs_xlg fw-semibold text_lightblue lineheight_normal ${
+                  first === 0 ? "d-block" : "d-none"
+                }`}
+              >
+                Updated with your Dashboard
+              </h3>
+              <h3
+                className={`ff_outfit fs_xlg fw-semibold text_lightblue lineheight_normal ${
+                  first === 1 ? "d-block" : "d-none"
+                }`}
+              >
+                Accounts
+              </h3>
+              <h3
+                className={`ff_outfit fs_xlg fw-semibold text_lightblue lineheight_normal ${
+                  first === 2 ? "d-block" : "d-none"
+                }`}
+              >
+                Cards
+              </h3>
+              <p className=" color_lightgray ff_Inter fs_sm fw-normal leading-150 mb-0 mt-2 pt-1">
+                Et tempor justo aliquam orci augue vitae fringilla purus eget.
+                Id vitae odio consequat aliquet volutpat convallis mi tortor.
+                Eget mattis malesuada commodo urnavolutpat nisi rutrum leo.
+                Curabitur id gravida urna consectetur.
+              </p>
+            </div>
+          </Col>
         </Row>
       </Container>
     </div>

@@ -47,7 +47,7 @@ const Problem = () => {
     ],
   };
   return (
-    <div className="py-5 ">
+    <div className="py-lg-5 ">
       <Container className=" custom_container py-5 my-4 ">
         <div>
           <div className="blue_line mb-2 mx-auto rounded-2"></div>

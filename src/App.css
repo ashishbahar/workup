@@ -224,7 +224,7 @@
 
 .width_FreQ {
     max-width: 627.602px;
-    
+
 }
 
 /* .accordion-button:not(.collapsed)::after {
@@ -288,7 +288,8 @@
 
 /* FOOTER START */
 .bg-Footer {
-    background: var(--Linear-color, linear-gradient(194deg, #FBC524 -34.99%, #E939D9 21.89%, #2ABAE9 74.4%));}
+    background: var(--Linear-color, linear-gradient(194deg, #FBC524 -34.99%, #E939D9 21.89%, #2ABAE9 74.4%));
+}
 
 .Footer_padding {
     padding-top: 106px;
@@ -350,8 +351,8 @@
     }
 
     .Our_padding {
-        padding-top: 84px;
-        padding-bottom: 85px;
+        padding-top: 84px !important;
+        padding-bottom: 85px !important;
     }
 
     .Solution_padding {
@@ -388,6 +389,11 @@
     .Our_padding {
         padding-top: 44px;
         padding-bottom: 45px;
+    }
+
+    .line_Blue {
+        margin-left: auto;
+        margin-right: auto
     }
 }
 
