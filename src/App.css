@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;700;800;900&family=Poppins:wght@200;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
     --fs-xsm: 14px;
@@ -85,6 +85,10 @@
     font-family: 'Open Sans' !important;
 }
 
+.ff_poppins {
+    font-family: 'Poppins' !important;
+}
+
 .text_darkgray {
     color: var(--text-darkgray);
 }
@@ -109,6 +113,13 @@
     height: 4px;
     margin-bottom: 6px;
     border-radius: 50px;
+    background-color: var(--text-blue);
+}
+
+.line_Blue_F {
+    max-width: 174px;
+    height: 4px;
+    margin-bottom: 10px;
     background-color: var(--text-blue);
 }
 
@@ -190,6 +201,124 @@
 
 /* SOLUTION_END */
 
+
+/* FREQUENTLY START */
+
+
+.accordion-button:not(.collapsed) {
+    color: #2ABAE9 !important;
+    background-color: transparent !important;
+    font-family: 'Outfit' !important;
+    box-shadow: none !important;
+    padding: 0px 0px 17px 0px !important;
+    border-bottom: none !important;
+
+}
+
+.width_FreQ {
+    max-width: 627.602px;
+    
+}
+
+/* .accordion-button:not(.collapsed)::after {
+    transform: rotate(-90deg) !important;
+    margin-bottom: -50px;
+  } */
+
+.accordion-button {
+    padding: 18px 0px 18px 0px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: 'Outfit' !important;
+    background-color: transparent !important;
+    color: rgba(0, 0, 0, 0.70);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.accordion-button::after {
+    background-position: center !important;
+}
+
+.accordion-body {
+    padding: 0px 0px 18px 0px !important;
+    font-weight: 400 !important;
+    font-family: 'Inter' !important;
+    font-size: 16px !important;
+    color: rgba(0, 0, 0, 0.70) !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+
+}
+
+.accordion {
+    --bs-accordion-border-color: transparent !important;
+    --bs-accordion-border-radius: 10px !important;
+    --bs-accordion-inner-border-radius: 0px !important;
+    --bs-accordion-btn-color: rgba(0, 0, 0, 0.70) !important;
+    --bs-accordion-btn-bg: black !important;
+    --bs-accordion-btn-icon: url(./assets/images/png2/plus.png) !important;
+    --bs-accordion-btn-active-icon: url(./assets/images/png2/Sub.png) !important;
+    --bs-accordion-btn-focus-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.hr_line {
+    background-color: #FFF;
+    height: 2px;
+}
+
+.Heading_Accordion {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 522px;
+    line-height: normal;
+}
+
+/* FREQUENTLY END */
+
+/* FOOTER START */
+.bg-Footer {
+    background: var(--Linear-color, linear-gradient(194deg, #FBC524 -34.99%, #E939D9 21.89%, #2ABAE9 74.4%));}
+
+.Footer_padding {
+    padding-top: 106px;
+    padding-bottom: 86px;
+}
+
+.Fotter_line {
+    height: 2px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.Footer_paragraph {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.Footer_copyright {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.position_Footer {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: 2;
+}
+
+/* FOOTER END */
 
 @media (min-width: 1200px) {
     :root {
