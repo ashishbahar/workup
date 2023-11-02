@@ -22,7 +22,7 @@ const Feature = () => {
                   <Col lg={3} sm={6} className="mt-4">
                     <div
                       key={i}
-                      className=" h-100 feature_box ms-lg-1  transition_3_linear"
+                      className=" h-100 feature_box ms-lg-1 transition_3_linear"
                     >
                       {Obj.SvgIcon}
                       <div className=" pt-4">

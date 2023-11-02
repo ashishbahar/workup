@@ -9,6 +9,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Problem from "./components/Problem";
 import Plans from "./components/Plans";
 import Update from "./components/Update";
+import Frequently from "./components/Frequently";
+import Footer from "./components/Footer";
+import Working from "./components/Working";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
       <Problem />
       <Plans />
       <Update />
+      <Working/>
+      <Frequently/>
+      <Footer/>
     </div>
   );
 }
