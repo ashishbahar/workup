@@ -1,7 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import { Forgotten, ManualTask, SpendControl } from "./Icon";
+import {
+  Forgotten,
+  LeftIcon,
+  ManualTask,
+  RightIcon,
+  SpendControl,
+} from "./Icon";
 const Problem = () => {
   const slider = React.useRef(null);
   var settings = {
@@ -13,6 +19,32 @@ const Problem = () => {
     nextArrow: ".nextarow",
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="py-5 ">
@@ -22,9 +54,9 @@ const Problem = () => {
           <h2 className=" text-center leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">
             Problem We are solving
           </h2>
-          <div></div>
+          
         </div>
-        <div>
+        <div className=" position-relative">
           <Slider ref={slider} {...settings}>
             <div className="px-12 py-5">
               <div className=" slider_box   transition_3_linear">
@@ -76,16 +108,16 @@ const Problem = () => {
             </div>
           </Slider>
           <button
-            className="prevarow"
+            className="prevarow  slider_arrow rightarrow_postion"
             onClick={() => slider?.current?.slickPrev()}
           >
-            next
+            <RightIcon />
           </button>
           <button
-            className="nextarow"
+            className="nextarow slider_arrow  leftarrow_position"
             onClick={() => slider?.current?.slickNext()}
           >
-            prev
+            <LeftIcon />
           </button>
         </div>
       </Container>

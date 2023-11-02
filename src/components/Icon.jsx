@@ -667,3 +667,74 @@ export const ManualTask = () => {
     </svg>
   );
 };
+export const RightIcon = () => {
+  return (
+    <svg
+      width="31"
+      height="31"
+      viewBox="0 0 31 31"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="slider_arrow_white transition_3_linear"
+        d="M13.3242 9.20923L19.5742 15.4592L13.3242 21.7092"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+export const LeftIcon = () => {
+  return (
+    <svg
+      width="31"
+      height="31"
+      viewBox="0 0 31 31"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="slider_arrow_white transition_3_linear"
+        d="M18.0352 9.20923L11.7852 15.4592L18.0352 21.7092"
+        stroke="black"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const LinearCheckbox = () => {
+  return (
+    <svg
+      width="25"
+      height="25"
+      viewBox="0 0 25 25"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.5156 2.75586C7.00163 2.75586 2.51562 7.24186 2.51562 12.7559C2.51562 18.2699 7.00163 22.7559 12.5156 22.7559C18.0296 22.7559 22.5156 18.2699 22.5156 12.7559C22.5156 7.24186 18.0296 2.75586 12.5156 2.75586ZM10.5166 17.1689L6.80363 13.4639L8.21562 12.0479L10.5146 14.3429L15.8086 9.04886L17.2226 10.4629L10.5166 17.1689Z"
+        fill="url(#paint0_linear_231_1279)"
+        className="svg_white"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_231_1279"
+          x1="2.51563"
+          y1="6.71189"
+          x2="22.4424"
+          y2="6.9855"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#994FFF" />
+          <stop offset="1" stop-color="#4AB6FE" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};

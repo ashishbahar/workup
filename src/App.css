@@ -5,8 +5,9 @@
     --fs-sm: 14px;
     --fs-xmd: 16px;
     --fs-md: 16px;
-    --fs-xlg: 24px;
+    --fs-xlg: 20px;
     --fs-lg: 35px;
+    --fs-2lg: 40px;
     --fs-xl: 54px;
     --text-white: #ffffff;
     --text-lightblue: #111223;
@@ -39,6 +40,10 @@
 
 .fs_lg {
     font-size: var(--fs-lg);
+}
+
+.fs_2lg {
+    font-size: var(--fs-2lg);
 }
 
 .fs_xl {
@@ -81,6 +86,7 @@
     font-family: 'Raleway' !important;
 }
 
+
 .ff_opensans {
     font-family: 'Open Sans' !important;
 }
@@ -117,6 +123,7 @@
     top: 9%;
     left: 0%;
 }
+
 
 /* OUR_END */
 
@@ -199,6 +206,7 @@
         --fs-md: 20px;
         --fs-xlg: 24px;
         --fs-lg: 40px;
+        --fs-2lg: 48px;
         --fs-xl: 54px;
     }
 }
