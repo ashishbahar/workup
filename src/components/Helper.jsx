@@ -10,6 +10,7 @@ import {
   TeamOnbording,
   TransAccounts,
 } from "./Icon";
+import { Arrow, Search, Security } from "./Iconsvg";
 
 export const FeatureDatafirstline = [
   {
@@ -72,3 +73,21 @@ export const FeatureDataThirdline = [
     Para: " Unlimited payments and transfers within Austraila.",
   },
 ];
+
+export const WorkingData = [
+  {
+    SvgIcon: <Arrow/>,
+    Heading: "Sign Up and Confirm",
+    Para: "Choose what plugin products and how many business accounts you desire.",
+  },
+  {
+    SvgIcon: <Search/>,
+    Heading: "Upload Documentation",
+    Para: "Upload and edit business registration documents.",
+  },
+  {
+    SvgIcon: <Security/>,
+    Heading: "Wait for Approval",
+    Para: "You will still be able to access our platform and some plugin allow for 3 days for bank account approval.",
+  }
+]

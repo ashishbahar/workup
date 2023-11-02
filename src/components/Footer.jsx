@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Facebook, Footer_logo, Instagram, Linkedin, Twitter } from "./Iconsvg";
+import { Facebook, FooterLogo, Instagram, Linkedin, Twitter } from "./Iconsvg";
 import Vector from "../assets/images/png2/Footer_vector.png"
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <Row className="Footer_padding">
           <Col lg={6}>
             <div>
-              <Footer_logo />
+              <FooterLogo />
             </div>
             <p class="my-1 py-2 Footer_paragraph">
               The is a long established fact that a reader will be distracted by <span className="d-block">
