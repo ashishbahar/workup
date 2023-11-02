@@ -297,7 +297,11 @@
     line-height: 150%;
 }
 
-
+.positon_line {
+    position: absolute;
+    left: -6%;
+    top: 18%;
+}
 
 /* WORKING END  */
 
@@ -399,6 +403,12 @@
         transform: translateX(-60px);
     }
 
+    .positon_line {
+        position: absolute;
+        left: -7%;
+        top: 18%;
+    }
+
 }
 
 @media (max-width:992px) {
@@ -417,6 +427,12 @@
     .Our_padding {
         padding-top: 44px;
         padding-bottom: 45px;
+    }
+
+    .positon_line {
+        position: absolute;
+        left: -2%;
+        top: 18%;
     }
 }
 
