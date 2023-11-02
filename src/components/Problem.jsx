@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import {
+  ArrowIcon,
   Forgotten,
   LeftIcon,
   ManualTask,
@@ -47,14 +48,13 @@ const Problem = () => {
     ],
   };
   return (
-    <div className="py-lg-5 ">
+    <div className="py-lg-5 mb-lg-2 ">
       <Container className=" custom_container py-5 my-4 ">
         <div>
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" text-center leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">
             Problem We are solving
           </h2>
-          
         </div>
         <div className=" position-relative">
           <Slider ref={slider} {...settings}>
@@ -119,6 +119,19 @@ const Problem = () => {
           >
             <LeftIcon />
           </button>
+        </div>
+        <div className="slider_input position-relative mt-4 sm:mt-5  mx-auto py-2 ps-3 sm:ps-4 pe-2">
+          <form action="" className=" d-flex justify-content-between">
+            <input
+              required
+              type="email"
+              className="border-0 w_71 "
+              placeholder="List Goes On"
+            />
+            <button className="slider_btn w_25 border-0">
+              <ArrowIcon />
+            </button>
+          </form>
         </div>
       </Container>
     </div>

@@ -119,7 +119,22 @@ input {
     background: #FFF;
 }
 
+.slider_input {
+    max-width: 264px;
+    border-radius: 100px;
+    border: 1px solid var(--Linear-two, #994FFF);
+    background: #FFF;
+}
 
+.slider_btn {
+    border-radius: 35px;
+    padding: 6px 25px 8px;
+    background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
+}
+
+.slider_btn:hover .translate_x {
+    transform: translateX(5px);
+}
 
 .opacity_07 {
     opacity: .7;
@@ -211,6 +226,10 @@ input {
 
 .leftarrow_position {
     left: -5%;
+}
+
+.w_71 {
+    width: 71%;
 }
 
 .slider_arrow:hover {
