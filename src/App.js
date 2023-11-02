@@ -12,6 +12,7 @@ import Update from "./components/Update";
 import Frequently from "./components/Frequently";
 import Footer from "./components/Footer";
 import Working from "./components/Working";
+import Waitlist from "./components/Waitlist";
 
 function App() {
   return (
@@ -20,12 +21,13 @@ function App() {
       <Feature />
       <OurMission />
       <Solution />
+      <Waitlist />
       <Problem />
       <Plans />
       <Update />
-      <Working/>
-      <Frequently/>
-      <Footer/>
+      <Working />
+      <Frequently />
+      <Footer />
     </div>
   );
 }

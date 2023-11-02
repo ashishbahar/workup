@@ -324,7 +324,10 @@ input {
 }
 
 .WaitList_box {
-    max-width: 761px; 
+    max-width: 761px;
+    border-radius: 16px;
+    padding: 29px 20px 47px;
+    background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
 }
 
 @media(min-width:1200px) and (max-width:1250px) {
