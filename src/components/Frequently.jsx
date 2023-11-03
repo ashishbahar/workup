@@ -7,15 +7,22 @@ const Frequently = () => {
   return (
     <section>
       <Container className="custom_container mt-3 mt-md-5">
-        <div className="d-flex justify-content-center mb-2"><Bluesvg/></div>
+        <div className="d-flex justify-content-center mb-2">
+          <Bluesvg />
+        </div>
         <h2 className="text-center text_lightblack fs_lg fw-medium ff_outfit">
           Frequently Awesome Questions
         </h2>
         <Row className="align-items-center  py-lg-4">
-          <Col lg={5} className="d-flex justify-content-center">
+          <Col
+            data-aos-duration="2000"
+            data-aos="zoom-out-right"
+            lg={5}
+            className="d-flex justify-content-center"
+          >
             <img className="w-100" src={Frequently_img} alt="Frequently_img" />
           </Col>
-          <Col lg={7}>
+          <Col data-aos-duration="2000" data-aos="zoom-out-left" lg={7}>
             <div className="ps-4 pt-5">
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0" className="w-100 bg-transparent">

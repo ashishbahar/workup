@@ -37,27 +37,28 @@ function App() {
  
    //  preloader-end
   return (
-    <div>
-       {loading && <Preloader/>}
+    <div className=" overflow-hidden">
+      {loading && <Preloader />}
       <Hero />
       <Feature />
       <OurMission />
       <Solution />
-      <Waitlist waitlist="d-none" translate="" />
+      <Waitlist maxwidth="" waitlist="d-none" translate="" />
       <Problem />
       <Working />
       <Update />
-      <Waitlist waitlist="d-none" translate="" />
+      <Waitlist maxwidth="" waitlist="d-none" translate="" />
       <Plans />
       <Frequently />
       <Waitlist
+        maxwidth="max_width"
         waitlist=""
         translate="translate"
         zigzag={zigzag}
         zigzag2={zigzag2}
       />
       <Footer />
-      <Topbutton/>
+      <Topbutton />
     </div>
   );
 }

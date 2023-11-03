@@ -17,6 +17,7 @@ const Problem = () => {
     dots: false,
     arrows: false,
     infinite: true,
+    autoplay: true,
     speed: 500,
     prevArrow: ".prevarow",
     nextArrow: ".nextarow",
@@ -61,7 +62,11 @@ const Problem = () => {
         src={linearcircle}
         alt="linearcircle"
       />
-      <Container className=" custom_container py-5 my-4 ">
+      <Container
+        data-aos-duration="2000"
+        data-aos="zoom-in-right"
+        className=" custom_container py-5 my-4 "
+      >
         <div>
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" text-center leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">

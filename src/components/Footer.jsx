@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Facebook, FooterLogo, Instagram, Linkedin, Twitter } from "./Iconsvg";
-import Vector from "../assets/images/webp/Footer_vector.webp"
+import Vector from "../assets/images/webp/Footer_vector.webp";
 
 const Footer = () => {
   return (
     <section class="bg-Footer position-relative">
       <img className="position_Footer" src={Vector} alt="vector" />
-      <Container className="custom_container">
+      <Container data-aos="fade-up" className="custom_container">
         <Row className="Footer_padding">
           <Col lg={6}>
             <span className=" cursor_pointer">
@@ -131,7 +131,7 @@ const Footer = () => {
         </Row>
       </Container>
       <div className="pb-4">
-        <hr className="Fotter_line" />
+        <div className="Fotter_line" ></div>
         <div className="text-center Footer_copyright mt-3">
           Copyright 2023 JesMor Enterprises, All Rights Reserved.
         </div>

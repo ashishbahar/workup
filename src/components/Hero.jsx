@@ -35,7 +35,12 @@ const Hero = () => {
         src={positionimg2}
         alt="positionimg5"
       />
-      <Container className="custom_container position-relative z-1 py-4 sm:py-5">
+      <Container
+        data-aos-duration="2000"
+        data-aos-delay="3000"
+        data-aos="fade-up"
+        className="custom_container position-relative z-1 py-4 sm:py-5"
+      >
         <h1 className=" text-center ff_outfit text_black leading_120 fw-semibold fs_xl">
           Superpower your business finance
         </h1>

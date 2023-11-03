@@ -7,7 +7,6 @@ import { WorkingData } from "./Helper";
 const Working = () => {
   return (
     <section className="Bg-sky py-lg-2">
-
       <Container className="custom_container py-5">
         <div className="d-flex justify-content-center mb-2">
           <BlueWorking />
@@ -16,11 +15,23 @@ const Working = () => {
           How it’s working
         </h2>
         <Row className="align-items-center py-2 my-1">
-          <Col lg={6} className="d-flex justify-content-start">
+          <Col
+            data-aos="zoom-in-right"
+            data-aos-duration="2000"
+            lg={6}
+            className="d-flex justify-content-start"
+          >
             <img className="width-83" src={Workings} alt="workings" />
           </Col>
-          <Col lg={6} className="position-relative pt-5 mt-4">
-            <div className="positon_line d-none d-sm-block"><WorkingLine/></div>
+          <Col
+            lg={6}
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+            className="position-relative pt-5 mt-4"
+          >
+            <div className="positon_line d-none d-sm-block">
+              <WorkingLine />
+            </div>
             {WorkingData &&
               WorkingData.map((obj, i) => {
                 return (

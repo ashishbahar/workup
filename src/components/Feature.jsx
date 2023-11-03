@@ -37,7 +37,11 @@ const Feature = () => {
           <h2 className=" leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">
             Plugs & Play Features
           </h2>
-          <Row className="  position-relative z-1 pt-4 mt-sm-2 justify-content-center">
+          <Row
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            className="  position-relative z-1 pt-4 mt-sm-2 justify-content-center"
+          >
             {FeatureDatafirstline &&
               FeatureDatafirstline.map((Obj, i) => {
                 return (
@@ -60,7 +64,11 @@ const Feature = () => {
                 );
               })}
           </Row>
-          <Row className="justify-content-center">
+          <Row
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            className="justify-content-center"
+          >
             {FeatureDataSecline &&
               FeatureDataSecline.map((Obj, i) => {
                 return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Img_logo from "../assets/images/webp/Missions.webp";
+import Img_logo from "../assets/images/png/LogoP.png";
 
 const Preloader = () => {
   return (

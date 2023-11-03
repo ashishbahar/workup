@@ -6,7 +6,11 @@ const Waitlist = (props) => {
   return (
     <div className={`position-relative z-1 ${props.translate}`}>
       <Container className=" pb-1 custom_container ">
-        <div className=" WaitList_box mx-auto position-relative z-2 overflow-hidden">
+        <div
+          data-aos="flip-left"
+          data-aos-duration="2500"
+          className={`WaitList_box mx-auto position-relative z-2 overflow-hidden ${props.maxwidth}`}
+        >
           <h2 className=" pb-1 mb-0 text-center position-relative z-1 leading_120 ff_outfit fw-medium fs_lg  text_white text-capitalize">
             Join our waitlist
           </h2>

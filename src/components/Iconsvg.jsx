@@ -43,6 +43,7 @@ export const Arrow = () => {
     <svg
       width="51"
       height="51"
+      className="working_svg"
       viewBox="0 0 51 51"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -139,6 +140,7 @@ export const Arrow = () => {
 export const Search = () => {
   return (
     <svg
+      className="working_svg"
       width="51"
       height="51"
       viewBox="0 0 51 51"
@@ -214,6 +216,7 @@ export const Search = () => {
 export const Security = () => {
   return (
     <svg
+      className="working_svg"
       width="51"
       height="51"
       viewBox="0 0 51 51"

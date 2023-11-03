@@ -12,7 +12,7 @@ const Update = () => {
         className=" position-absolute end-0 positionimg12"
         src={linearcircle}
         alt=" linearcircle"
-      />{" "}
+      />
       <img
         className=" position-absolute positionimg12"
         src={Dots3}
@@ -21,6 +21,8 @@ const Update = () => {
       <Container className=" py-5 my-md-4 position-relative z-1  custom_container">
         <div className="overflow-scroll example ">
           <div
+            data-aos="zoom-in"
+            data-aos-duration="2500"
             className={`d-flex  pb-2  update_line justify-content-between mx-auto ${
               first === 0
                 ? "active"
@@ -52,7 +54,13 @@ const Update = () => {
           </div>
         </div>
         <Row className="py-lg-5 py-4 justify-content-lg-between justify-content-center align-items-center">
-          <Col lg={6} md={8} className="my-4 position-relative ">
+          <Col
+            data-aos="zoom-in-right"
+            data-aos-duration="2500"
+            lg={6}
+            md={8}
+            className="my-4 position-relative "
+          >
             <img
               className="positionimg13 position-absolute"
               src={linearimg}
@@ -64,7 +72,7 @@ const Update = () => {
               alt="desktop"
             />
           </Col>
-          <Col lg={5}>
+          <Col lg={5} data-aos="zoom-in-right" data-aos-duration="2500">
             <div className="text-center text-lg-start">
               <h3
                 className={`ff_outfit fs_xlg fw-semibold text_lightblue lineheight_normal ${

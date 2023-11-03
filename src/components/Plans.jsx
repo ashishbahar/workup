@@ -25,7 +25,15 @@ const Plans = () => {
             </h2>
           </>
           <Row className=" my-4 justify-content-center py-lg-2">
-            <Col lg={4} md={6} sm={9} xs={11} className=" mt-4">
+            <Col
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              lg={4}
+              md={6}
+              sm={9}
+              xs={11}
+              className=" mt-4"
+            >
               <div className="plan_box">
                 <div className="d-flex flex-column h-100 justify-content-between">
                   <div>
@@ -72,7 +80,15 @@ const Plans = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={4} md={6} sm={9} xs={11} className=" mt-4">
+            <Col
+              data-aos="zoom-out-up"
+              data-aos-duration="2000"
+              lg={4}
+              md={6}
+              sm={9}
+              xs={11}
+              className=" mt-4"
+            >
               <div className="plan_box">
                 <div className="d-flex h-100 flex-column justify-content-between">
                   <div>
@@ -130,7 +146,15 @@ const Plans = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={4} md={6} sm={9} xs={11} className=" mt-4">
+            <Col
+              data-aos="zoom-in-left"
+              data-aos-duration="2000"
+              lg={4}
+              md={6}
+              sm={9}
+              xs={11}
+              className=" mt-4"
+            >
               <div className="plan_box">
                 <div className="d-flex h-100 flex-column justify-content-between">
                   <div>
