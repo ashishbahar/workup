@@ -139,6 +139,7 @@
 /* OUR_END */
 
 /* SOLUTION_START */
+
 .abs_solution1 {
     position: absolute;
     right: 0%;
@@ -175,6 +176,14 @@
 
 .width_group {
     width: 8%;
+}
+
+.scale_sol {
+    transition: all 500ms linear;
+}
+
+.scale_sol:hover {
+    scale: 1.08;
 }
 
 .abs_Solution_one {
@@ -263,8 +272,8 @@
     --bs-accordion-inner-border-radius: 0px !important;
     --bs-accordion-btn-color: rgba(0, 0, 0, 0.70) !important;
     --bs-accordion-btn-bg: black !important;
-    --bs-accordion-btn-icon: url(./assets/images/png2/plus.png) !important;
-    --bs-accordion-btn-active-icon: url(./assets/images/png2/Sub.png) !important;
+    --bs-accordion-btn-icon: url(./assets/images/webp/plus.webp) !important;
+    --bs-accordion-btn-active-icon: url(./assets/images/webp/Sub.webp) !important;
     --bs-accordion-btn-focus-border-color: none !important;
     --bs-accordion-btn-focus-box-shadow: none !important;
 }
@@ -321,6 +330,32 @@
 
 /* WORKING END  */
 
+/* preloader */
+
+.zindex-5 {
+    z-index: 40;
+  }
+  
+  .Animation {
+    animation-name: preloader;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  
+  @keyframes preloader {
+    0% {
+      transform: scale(1.5);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  
+  }
+
 /* FOOTER START */
 .bg-Footer {
     background: var(--Linear-color, linear-gradient(194deg, #FBC524 -34.99%, #E939D9 21.89%, #2ABAE9 74.4%));
@@ -334,6 +369,7 @@
 .Fotter_line {
     height: 2px;
     background: rgba(255, 255, 255, 0.10);
+    ;
 }
 
 .Footer_paragraph {
@@ -372,6 +408,28 @@
 }
 
 /* FOOTER END */
+
+/* Top_Button */
+
+.topbtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: var(--Linear-color, linear-gradient(194deg, #FBC524 -34.99%, #E939D9 21.89%, #2ABAE9 74.4%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 1.7%;
+    bottom: 40px;
+    z-index: 1;
+    transition: all 500ms linear;
+  }
+  
+  .topbtn:hover {
+    box-shadow: 0px 9px 29px 5px rgba(143, 96, 253, 0.3);
+
+  }
 
 @media (min-width: 1200px) {
     :root {

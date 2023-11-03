@@ -427,7 +427,9 @@ input {
 .positionimg14 {
     top: 6%;
 }
-
+.logo_max_width {
+    max-width: 151px;
+}{}
 @media(min-width:1200px) and (max-width:1250px) {
     .rightarrow_postion {
         right: -3%;
@@ -516,7 +518,7 @@ input {
     }
 
     .abs_Solution_zigzag {
-       max-width: 300px;
+        max-width: 300px;
     }
 }
 
@@ -550,6 +552,10 @@ input {
 
     .slider_arrow {
         top: 95%;
+    }
+
+    .logo_max_width {
+        max-width: 140px;
     }
 }
 

@@ -14,7 +14,7 @@ const Header = () => {
       <Container className=" custom_container py-4">
         <div className="d-flex justify-content-between align-items-center py-1">
           <img
-            className="cursor_pointer width_max_76"
+            className="cursor_pointer logo_max_width"
             src={pagelogo}
             alt="pagelogo"
           />

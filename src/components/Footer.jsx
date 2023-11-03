@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Facebook, FooterLogo, Instagram, Linkedin, Twitter } from "./Iconsvg";
-import Vector from "../assets/images/png2/Footer_vector.png";
+import Vector from "../assets/images/webp/Footer_vector.webp"
 
 const Footer = () => {
   return (
