@@ -130,9 +130,9 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      <div className="pb-4">
+      <div className="pb-4 px-3 position-relative z-2">
         <div className="Fotter_line" ></div>
-        <div className="text-center Footer_copyright mt-3">
+        <div className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd  mt-3">
           Copyright 2023 JesMor Enterprises, All Rights Reserved.
         </div>
       </div>

@@ -16,7 +16,7 @@ const Plans = () => {
         src={lineardots}
         alt="lineardots"
       />
-      <Container className="pt-lg-5 custom_container position-relative z-1">
+      <Container className="pt-lg-5 mt-4 mt-lg-0 custom_container position-relative z-1">
         <div className="py-5 ">
           <>
             <div className="blue_line mb-2 mx-auto rounded-2"></div>

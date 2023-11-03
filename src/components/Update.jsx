@@ -7,7 +7,7 @@ import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 const Update = () => {
   const [first, setfirst] = useState(0);
   return (
-    <div className=" pt-lg-5 mt-xl-5 position-relative">
+    <div className=" pb-4 pb-lg-0 pt-lg-5 mt-xl-5 position-relative">
       <img
         className=" position-absolute end-0 positionimg12"
         src={linearcircle}
@@ -21,8 +21,6 @@ const Update = () => {
       <Container className=" py-5 my-md-4 position-relative z-1  custom_container">
         <div className="overflow-scroll example ">
           <div
-            data-aos="zoom-in"
-            data-aos-duration="2500"
             className={`d-flex  pb-2  update_line justify-content-between mx-auto ${
               first === 0
                 ? "active"

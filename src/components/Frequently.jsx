@@ -1,11 +1,17 @@
 import React from "react";
 import { Accordion, Col, Container, Row } from "react-bootstrap";
 import Frequently_img from "../assets/images/webp/Awesome.webp";
+import vectorFreq from "../assets/images/png/Vector_FreQ.png";
 import { Bluesvg } from "./Iconsvg";
 
 const Frequently = () => {
   return (
-    <section>
+    <section className=" position-relative">
+      <img
+        className="vectorFreq d-none d-sm-block"
+        src={vectorFreq}
+        alt="vectorFreq"
+      />
       <Container className="custom_container mt-3 mt-md-5">
         <div className="d-flex justify-content-center mb-2">
           <Bluesvg />
@@ -18,12 +24,13 @@ const Frequently = () => {
             data-aos-duration="2000"
             data-aos="zoom-out-right"
             lg={5}
-            className="d-flex justify-content-center"
+            md={10}
+            className="d-flex mx-auto justify-content-center"
           >
             <img className="w-100" src={Frequently_img} alt="Frequently_img" />
           </Col>
           <Col data-aos-duration="2000" data-aos="zoom-out-left" lg={7}>
-            <div className="ps-4 pt-5">
+            <div className="ps-md-4 pt-sm-5">
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0" className="w-100 bg-transparent">
                   <Accordion.Header>
@@ -52,8 +59,8 @@ const Frequently = () => {
                 </Accordion.Item>
                 <Accordion.Item eventKey="2" className="w-100 bg-transparent">
                   <Accordion.Header>
-                    Q3 How does WorkUp's real-time automation set it apart in
-                    the realm of finance?
+                    Q3 How does WorkUp's real-times automation on set it apart
+                    in the realm of finance?
                   </Accordion.Header>
                   <Accordion.Body className="width_FreQ">
                     WorkUp envisions becoming the ultimate integrated business
