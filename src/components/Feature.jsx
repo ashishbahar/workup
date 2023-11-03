@@ -16,7 +16,11 @@ const Feature = () => {
         src={Dots3}
         alt="Dots3"
       />
-      <img src={linearimg} alt="linearimg" />
+      <img
+        className=" position-absolute positionimg7 end-0"
+        src={linearimg}
+        alt="linearimg"
+      />
       <Container className=" custom_container pb-4 pb-sm-5 pt-sm-5 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>

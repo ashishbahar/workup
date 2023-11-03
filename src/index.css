@@ -384,6 +384,10 @@ input {
     top: 25%;
 }
 
+.positionimg7 {
+    top: 25%;
+}
+
 @media(min-width:1200px) and (max-width:1250px) {
     .rightarrow_postion {
         right: -3%;
