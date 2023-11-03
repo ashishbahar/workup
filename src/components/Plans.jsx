@@ -4,9 +4,9 @@ import { LinearCheckbox } from "./Icon";
 
 const Plans = () => {
   return (
-    <div>
-      <Container className=" custom_container">
-        <div>
+    <div className="py-md-4 mt-1 ">
+      <Container className="pt-lg-5 custom_container">
+        <div className="py-5 ">
           <>
             <div className="blue_line mb-2 mx-auto rounded-2"></div>
             <h2 className=" text-center leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">

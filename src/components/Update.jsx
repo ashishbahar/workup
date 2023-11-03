@@ -5,8 +5,8 @@ import desktop from "../assets/images/png/desktop.png";
 const Update = () => {
   const [first, setfirst] = useState(0);
   return (
-    <div className=" py-lg-5 my-xl-5">
-      <Container className=" py-5  custom_container">
+    <div className=" pt-lg-5 mt-xl-5">
+      <Container className=" py-5 my-md-4  custom_container">
         <div className="overflow-scroll example ">
           <div
             className={`d-flex  pb-2  update_line justify-content-between mx-auto ${

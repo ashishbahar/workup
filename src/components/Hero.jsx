@@ -3,11 +3,39 @@ import Header from "./Header";
 import { Container } from "react-bootstrap";
 import { ArrowIcon } from "./Icon";
 import mainimg from "../assets/images/png/heroimg.png";
+import positionimg1 from "../assets/images/png/heroposition1.png";
+import positionimg2 from "../assets/images/png/heroposition2.png";
+import positionimg3 from "../assets/images/png/heroposition3.png";
 const Hero = () => {
   return (
-    <div className="hero_linear">
+    <div className="hero_linear position-relative ">
       <Header />
-      <Container className="custom_container py-4 sm:py-5">
+      <img
+        className=" position-absolute top-0 end-0 positionimg1 "
+        src={positionimg1}
+        alt="positionimg1"
+      />
+      <img
+        className=" position-absolute  end-0 positionimg2  "
+        src={positionimg2}
+        alt="positionimg2"
+      />
+      <img
+        className=" position-absolute bottom-0  start-0 positionimg3  "
+        src={positionimg3}
+        alt="positionimg3"
+      />
+      <img
+        className=" position-absolute  start-0 positionimg4  "
+        src={positionimg2}
+        alt="positionimg4"
+      />
+      <img
+        className=" position-absolute bottom-0  end-0 positionimg5  "
+        src={positionimg2}
+        alt="positionimg5"
+      />
+      <Container className="custom_container position-relative z-1 py-4 sm:py-5">
         <h1 className=" text-center ff_outfit text_black leading_120 fw-semibold fs_xl">
           Superpower your business finance
         </h1>
