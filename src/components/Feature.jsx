@@ -1,14 +1,22 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import {
-  FeatureDataSecline,
-  FeatureDataThirdline,
-  FeatureDatafirstline,
-} from "./Helper";
-
+import { FeatureDataSecline, FeatureDatafirstline } from "./Helper";
+import Dots3 from "../assets/images/png2/Dots_Sol.png";
+import linearimg from "../assets/images/png/secondsecposition.png";
 const Feature = () => {
   return (
-    <div className=" pb-5 pt-4 pt-md-5 ">
+    <div className=" pb-5 pt-4 pt-md-5 position-relative ">
+      <img
+        className=" position-absolute positionimg6 start-0"
+        src={Dots3}
+        alt="Dots3"
+      />
+      <img
+        className=" position-absolute positionimg6 end-0"
+        src={Dots3}
+        alt="Dots3"
+      />
+      <img src={linearimg} alt="linearimg" />
       <Container className=" custom_container pb-4 pb-sm-5 pt-sm-5 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
@@ -58,7 +66,7 @@ const Feature = () => {
                       </div>
                     </div>
                   </Col>
-                )
+                );
               })}
           </Row>
         </div>

@@ -13,7 +13,8 @@ import Frequently from "./components/Frequently";
 import Footer from "./components/Footer";
 import Working from "./components/Working";
 import Waitlist from "./components/Waitlist";
-
+import zigzag from "../src/assets/images/png/waitlistimg.png";
+import zigzag2 from "../src/assets/images/png/waitlistimg2.png";
 function App() {
   return (
     <div>
@@ -21,13 +22,19 @@ function App() {
       <Feature />
       <OurMission />
       <Solution />
-      <Waitlist />
+      <Waitlist waitlist="d-none" translate="" />
       <Problem />
       <Working />
       <Update />
+      <Waitlist waitlist="d-none" translate="" />
       <Plans />
-
       <Frequently />
+      <Waitlist
+        waitlist=""
+        translate="translate"
+        zigzag={zigzag}
+        zigzag2={zigzag2}
+      />
       <Footer />
     </div>
   );

@@ -2,15 +2,15 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { ArrowIcon } from "./Icon";
 
-const Waitlist = () => {
+const Waitlist = (props) => {
   return (
-    <div>
+    <div className={` position-relative z-1 ${props.translate}`}>
       <Container className=" pb-1 custom_container">
-        <div className=" WaitList_box mx-auto">
-          <h2 className=" pb-1 mb-0 text-center leading_120 ff_outfit fw-medium fs_lg  text_white text-capitalize">
+        <div className=" WaitList_box mx-auto position-relative overflow-hidden">
+          <h2 className=" pb-1 mb-0 text-center position-relative z-1 leading_120 ff_outfit fw-medium fs_lg  text_white text-capitalize">
             Join our waitlist
           </h2>
-          <div className="hero_input position-relative mt-3    sm:mt-5  mx-auto py-2 ps-3 sm:ps-4 pe-2">
+          <div className="hero_input position-relative mt-3 z-1    sm:mt-5  mx-auto py-2 ps-3 sm:ps-4 pe-2">
             <form action="">
               <input
                 required
@@ -23,6 +23,16 @@ const Waitlist = () => {
               </button>
             </form>
           </div>
+          <img
+            className={`zigzag1 position-absolute top-0 start-0 ${props.waitlist}`}
+            src={props.zigzag}
+            alt="zigzag"
+          />
+          <img
+            className={`zigzag1 position-absolute bottom-0 end-0 ${props.waitlist}`}
+            src={props.zigzag2}
+            alt="zigzag"
+          />
         </div>
       </Container>
     </div>

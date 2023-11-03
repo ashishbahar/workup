@@ -349,6 +349,41 @@ input {
     background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
 }
 
+.zigzag1 {
+    max-width: 430px;
+}
+
+.translate {
+
+    transform: translateY(60px) !important;
+}
+
+.positionimg1 {
+    max-width: 550px;
+}
+
+.positionimg2 {
+    max-width: 40px;
+    top: 10%;
+}
+
+.positionimg3 {
+    max-width: 550px;
+}
+
+.positionimg4 {
+    max-width: 40px;
+    top: 25%;
+}
+
+.positionimg5 {
+    max-width: 40px;
+}
+
+.positionimg6 {
+    top: 25%;
+}
+
 @media(min-width:1200px) and (max-width:1250px) {
     .rightarrow_postion {
         right: -3%;

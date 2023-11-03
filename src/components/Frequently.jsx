@@ -11,7 +11,7 @@ const Frequently = () => {
         <h2 className="text-center text_lightblack fs_lg fw-medium ff_outfit">
           Frequently Awesome Questions
         </h2>
-        <Row className="align-items-center mb-5 py-4">
+        <Row className="align-items-center  py-4">
           <Col lg={5} className="d-flex justify-content-center">
             <img className="w-100" src={Frequently_img} alt="Frequently_img" />
           </Col>
