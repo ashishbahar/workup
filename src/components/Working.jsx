@@ -2,11 +2,13 @@ import React from "react";
 import { BlueWorking, WorkingLine } from "./Iconsvg";
 import { Col, Container, Row } from "react-bootstrap";
 import Workings from "../assets/images/Webp/WorkingGroup.webp";
+import vector from "../assets/images/png/Vector_working.png";
 import { WorkingData } from "./Helper";
 
 const Working = () => {
   return (
-    <section className="Bg-sky py-lg-2">
+    <section className="Bg-sky py-lg-2 position-relative">
+      <img className=" abs_vector" src={vector} alt="vector" />
 
       <Container className="custom_container py-5">
         <div className="d-flex justify-content-center mb-2">
