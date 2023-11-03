@@ -21,20 +21,30 @@ const Feature = () => {
         src={linearimg}
         alt="linearimg"
       />
+      <img
+        className=" position-absolute positionimg8 "
+        src={Dots3}
+        alt="Dots3"
+      />
+      <img
+        className=" position-absolute positionimg9 "
+        src={Dots3}
+        alt="Dots9"
+      />
       <Container className=" custom_container pb-4 pb-sm-5 pt-sm-5 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">
             Plugs & Play Features
           </h2>
-          <Row className="  pt-4 mt-sm-2 justify-content-center">
+          <Row className="  position-relative z-1 pt-4 mt-sm-2 justify-content-center">
             {FeatureDatafirstline &&
               FeatureDatafirstline.map((Obj, i) => {
                 return (
-                  <Col lg={3} sm={6} className="mt-4">
+                  <Col lg={3} sm={6} className="mt-4  ">
                     <div
                       key={i}
-                      className=" h-100 feature_box ms-lg-1 transition_3_linear"
+                      className=" h-100 position-relative z-1 feature_box ms-lg-1 transition_3_linear"
                     >
                       {Obj.SvgIcon}
                       <div className=" pt-4">

@@ -467,4 +467,9 @@
         transform: translateY(-12px);
     }
 
+    .Footer_padding {
+      
+        padding-bottom: 26px;
+    }
+
 }

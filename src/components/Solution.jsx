@@ -18,8 +18,8 @@ const Solution = () => {
         src={Dots3}
         alt="Dots3"
       />
-      <img className="abs_Solution_zigzag" src={zigzag} alt="zigzag" />
-      <Container className="custom_container py-4 py-lg-0">
+      <img className="abs_Solution_zigzag " src={zigzag} alt="zigzag" />
+      <Container className="custom_container position-relative z-1 py-4 py-lg-0">
         <Row className="align-items-center flex-column-reverse flex-lg-row">
           <Col lg={6}>
             <div className=" position-relative z-1 text-center pt-3 pt-lg-0 mt-4 mt-lg-0 text-lg-start">

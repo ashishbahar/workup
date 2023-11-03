@@ -1,6 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
+import positionimg2 from "../assets/images/png/heroposition2.png";
+import linearcircle from "../assets/images/png/linearcircle.png";
 import {
   ArrowIcon,
   Forgotten,
@@ -48,7 +50,17 @@ const Problem = () => {
     ],
   };
   return (
-    <div className="py-lg-5 mb-lg-2 ">
+    <div className="py-lg-5 mb-lg-2 position-relative  ">
+      <img
+        className=" position-absolute positionimg10"
+        src={positionimg2}
+        alt="positionimg2"
+      />
+      <img
+        className=" position-absolute positionimg11 "
+        src={linearcircle}
+        alt="linearcircle"
+      />
       <Container className=" custom_container py-5 my-4 ">
         <div>
           <div className="blue_line mb-2 mx-auto rounded-2"></div>

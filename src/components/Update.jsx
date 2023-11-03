@@ -1,12 +1,24 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import desktop from "../assets/images/png/desktop.png";
-
+import linearimg from "../assets/images/png/secondsecposition1.png";
+import linearcircle from "../assets/images/png/linearcircle.png";
+import Dots3 from "../assets/images/png2/Dots_Sol.png";
 const Update = () => {
   const [first, setfirst] = useState(0);
   return (
-    <div className=" pt-lg-5 mt-xl-5">
-      <Container className=" py-5 my-md-4  custom_container">
+    <div className=" pt-lg-5 mt-xl-5 position-relative">
+      <img
+        className=" position-absolute end-0 positionimg12"
+        src={linearcircle}
+        alt=" linearcircle"
+      />{" "}
+      <img
+        className=" position-absolute positionimg12"
+        src={Dots3}
+        alt="Dots3"
+      />
+      <Container className=" py-5 my-md-4 position-relative z-1  custom_container">
         <div className="overflow-scroll example ">
           <div
             className={`d-flex  pb-2  update_line justify-content-between mx-auto ${
@@ -40,8 +52,17 @@ const Update = () => {
           </div>
         </div>
         <Row className="py-lg-5 py-4 justify-content-lg-between justify-content-center align-items-center">
-          <Col lg={6} md={8} className="my-4 ">
-            <img className=" w-100  mx-auto " src={desktop} alt="desktop" />
+          <Col lg={6} md={8} className="my-4 position-relative ">
+            <img
+              className="positionimg13 position-absolute"
+              src={linearimg}
+              alt="linearimg"
+            />
+            <img
+              className=" position-relative z-1 w-100  mx-auto "
+              src={desktop}
+              alt="desktop"
+            />
           </Col>
           <Col lg={5}>
             <div className="text-center text-lg-start">
