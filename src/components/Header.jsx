@@ -10,7 +10,7 @@ const Header = () => {
   }
 
   return (
-    <nav className="nav_bg position-relative z_index_12">
+    <nav className="nav_bg position-relative z_index_12 z-2">
       <Container className=" custom_container py-4">
         <div className="d-flex justify-content-between align-items-center py-1">
           <img

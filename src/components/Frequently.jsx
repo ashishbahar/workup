@@ -6,12 +6,12 @@ import { Bluesvg } from "./Iconsvg";
 const Frequently = () => {
   return (
     <section>
-      <Container className="custom_container mt-5">
+      <Container className="custom_container mt-3 mt-md-5">
         <div className="d-flex justify-content-center mb-2"><Bluesvg/></div>
         <h2 className="text-center text_lightblack fs_lg fw-medium ff_outfit">
           Frequently Awesome Questions
         </h2>
-        <Row className="align-items-center  py-4">
+        <Row className="align-items-center  py-lg-4">
           <Col lg={5} className="d-flex justify-content-center">
             <img className="w-100" src={Frequently_img} alt="Frequently_img" />
           </Col>

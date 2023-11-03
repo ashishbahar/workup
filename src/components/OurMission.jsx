@@ -9,7 +9,7 @@ const OurMission = () => {
    <section className='Bg-sky position-relative'>
     <img className='position_Our width_group' src={Group_two} alt="#" />
     <img className='Sol_dots_abs' src={Three_dots} alt="#" />
-      <Container className='custom_container'>
+      <Container className='custom_container position-relative z-1'>
         <Row className='align-items-center justify-content-center pb-5 pt-4 py-lg-0'>
           <Col lg={6} md={10} sm={9}>
                <img className='Our_padding w-100' src={Group} alt="Group" />

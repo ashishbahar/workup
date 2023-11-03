@@ -1,11 +1,22 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { LinearCheckbox } from "./Icon";
-
+import Dots3 from "../assets/images/Webp/Dots_Sol.webp";
+import lineardots from "../assets/images/png/lineardots.png";
 const Plans = () => {
   return (
-    <div className="py-md-4 mt-1 ">
-      <Container className="pt-lg-5 custom_container">
+    <div className="py-md-4 mt-1 position-relative ">
+      <img
+        className=" position-absolute  bottom-50 start-0"
+        src={Dots3}
+        alt="dots"
+      />
+      <img
+        className=" position-absolute positionimg14 end-0"
+        src={lineardots}
+        alt="lineardots"
+      />
+      <Container className="pt-lg-5 custom_container position-relative z-1">
         <div className="py-5 ">
           <>
             <div className="blue_line mb-2 mx-auto rounded-2"></div>
