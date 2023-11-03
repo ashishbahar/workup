@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FeatureDataSecline, FeatureDatafirstline } from "./Helper";
-import Dots3 from "../assets/images/png2/Dots_Sol.png";
+import Dots3 from "../assets/images/Webp/Dots_Sol.webp";
 import linearimg from "../assets/images/png/secondsecposition.png";
 const Feature = () => {
   return (

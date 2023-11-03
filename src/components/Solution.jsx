@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import MISSIONS from "../assets/images/png2/Missions.png";
-import VISION from "../assets/images/png2/Vision.png";
-import VALUES from "../assets/images/png2/Values.png";
-import Dots1 from "../assets/images/png2/Dots_one.png";
-import Dots2 from "../assets/images/png2/Dots_Two.png";
-import Dots3 from "../assets/images/png2/Dots_Sol.png";
-import zigzag from "../assets/images/png2/zigzag.png";
+import MISSIONS from "../assets/images/Webp/Missions.webp";
+import VISION from "../assets/images/Webp/Vision.webp";
+import VALUES from "../assets/images/Webp/Values.webp";
+import Dots1 from "../assets/images/Webp/Dots_one.webp";
+import Dots2 from "../assets/images/Webp/Dots_Two.webp";
+import Dots3 from "../assets/images/Webp/Dots_Sol.webp";
+import zigzag from "../assets/images/Webp/zigzag.webp";
 
 const Solution = () => {
   return (
@@ -38,11 +38,11 @@ const Solution = () => {
           </Col>
           <Col lg={6} className="position-relative z-1">
             <div className="d-flex justify-content-center Mission_translatey">
-              <img className="w-lg-position" src={MISSIONS} alt="MISSIONS" />
+              <img className="w-lg-position scale_sol" src={MISSIONS} alt="MISSIONS" />
             </div>
             <div className="d-flex Vision_translatey justify-content-lg-start justify-content-center">
-              <img className="w-lg-position" src={VISION} alt="VISION" />
-              <img className="w-lg-position" src={VALUES} alt="VALUES" />
+              <img className="w-lg-position scale_sol" src={VISION} alt="VISION" />
+              <img className="w-lg-position scale_sol" src={VALUES} alt="VALUES" />
             </div>
           </Col>
         </Row>

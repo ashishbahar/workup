@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion, Col, Container, Row } from "react-bootstrap";
-import Frequently_img from "../assets/images/png2/Awesome.png";
+import Frequently_img from "../assets/images/Webp/Awesome.webp";
 import { Bluesvg } from "./Iconsvg";
 
 const Frequently = () => {

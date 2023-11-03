@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Facebook, FooterLogo, Instagram, Linkedin, Twitter } from "./Iconsvg";
-import Vector from "../assets/images/png2/Footer_vector.png"
+import Vector from "../assets/images/Webp/Footer_vector.webp"
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       <Container className="custom_container">
         <Row className="Footer_padding">
           <Col lg={6}>
-            <div>
+            <div className="cursor_pointer">
               <FooterLogo />
             </div>
             <p class="my-1 py-2 Footer_paragraph">
