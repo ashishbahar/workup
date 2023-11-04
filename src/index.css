@@ -136,8 +136,14 @@ input {
 
 .slider_btn {
     border-radius: 35px;
-    padding: 6px 25px 8px;
+    padding-bottom: 6px;
+    width: 69.76px;
+    height: 36px;
     background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
+}
+
+.update_pera {
+    max-width: 435px;
 }
 
 .slider_btn:hover .translate_x {
@@ -572,6 +578,8 @@ input {
     .logo_max_width {
         max-width: 140px;
     }
+
+
 }
 
 @media (max-width: 576px) {
@@ -638,10 +646,18 @@ input {
         background: #FFF;
         border: 1px solid rgba(0, 0, 0, 0.10);
     }
+
+    .ms_1 {
+        margin-left: 1px;
+    }
+
+    .feature_box {
+        max-width: 267px;
+    }
 }
 
 @media (min-width: 1400px) {
     .custom_container {
-        max-width: 1140px !important;
+        max-width: 1164px !important;
     }
 }

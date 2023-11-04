@@ -51,7 +51,7 @@ const Problem = () => {
     ],
   };
   return (
-    <div className="py-lg-5 mb-lg-2 position-relative  ">
+    <div className="py-lg-5 mb-lg-3 position-relative  ">
       <img
         className=" position-absolute positionimg10"
         src={positionimg2}
@@ -117,7 +117,7 @@ const Problem = () => {
                 <p className=" mt-3 mb-2 text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
                   Manual Tasks
                 </p>
-                <p className=" text_darkgray leading-150 ff_Inter fw-normal fs_sm text_ mb-0 pt-2">
+                <p className=" text_darkgray pe-lg-4 leading-150 ff_Inter fw-normal fs_sm text_ mb-0 pt-2">
                   Over are the days of manually inputting or retrieving
                   financial data.
                 </p>
@@ -137,7 +137,7 @@ const Problem = () => {
             <LeftIcon />
           </button>
         </div>
-        <div className="slider_input position-relative mt-4 sm:mt-5  mx-auto py-2 ps-3 sm:ps-4 pe-2">
+        <div className="slider_input position-relative mt-4  mt-md-2  mx-auto py-2 ps-3 sm:ps-4 pe-2">
           <form action="" className=" d-flex justify-content-between">
             <input
               required

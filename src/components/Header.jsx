@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <nav className="nav_bg position-relative z_index_12 z-2">
-      <Container className=" custom_container py-4  px-xl-0">
+      <Container className=" custom_container py-4  ">
         <div className="d-flex justify-content-between align-items-center">
           <img
             className="cursor_pointer logo_max_width"

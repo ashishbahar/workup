@@ -5,7 +5,7 @@ import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 import linearimg from "../assets/images/png/secondsecposition.png";
 const Feature = () => {
   return (
-    <div className=" pb-5 pt-4 pt-md-5 position-relative ">
+    <div className=" pb-5 pt-5 mb-2 position-relative ">
       <img
         className=" position-absolute positionimg6 start-0"
         src={Dots3}
@@ -31,7 +31,7 @@ const Feature = () => {
         src={Dots3}
         alt="Dots9"
       />
-      <Container className=" custom_container pb-4 pb-sm-5 pt-sm-5 mb-sm-4 ">
+      <Container className=" custom_container  pb-4 pb-sm-5 pt-sm-4 mt-2 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">
@@ -48,7 +48,7 @@ const Feature = () => {
                   <Col lg={3} sm={6} className="mt-4  ">
                     <div
                       key={i}
-                      className=" h-100 position-relative z-1 feature_box ms-lg-1 transition_3_linear"
+                      className=" h-100 position-relative z-1 feature_box  transition_3_linear"
                     >
                       {Obj.SvgIcon}
                       <div className=" pt-4">
@@ -72,7 +72,7 @@ const Feature = () => {
             {FeatureDataSecline &&
               FeatureDataSecline.map((Obj, i) => {
                 return (
-                  <Col lg={3} sm={6} className="ms-lg-1 mt-4">
+                  <Col lg={3} sm={6} className="ms_1 mt-4">
                     <div
                       key={i}
                       className=" h-100 feature_box  transition_3_linear"

@@ -18,8 +18,8 @@ const Update = () => {
         src={Dots3}
         alt="Dots3"
       />
-      <Container className=" py-5 my-md-4 position-relative z-1  custom_container">
-        <div className="overflow-scroll example ">
+      <Container className=" pt-5 pb-1 mb-4 mt-3  position-relative z-1  custom_container">
+        <div className="overflow-scroll pt-1  example ">
           <div
             className={`d-flex  pb-2  update_line justify-content-between mx-auto ${
               first === 0
@@ -51,13 +51,13 @@ const Update = () => {
             </p>
           </div>
         </div>
-        <Row className="py-lg-5 py-4 justify-content-lg-between justify-content-center align-items-center">
+        <Row className="py-lg-5 py-4 my-4 my-lg-5  justify-content-lg-between justify-content-center align-items-center">
           <Col
             data-aos="zoom-in-right"
             data-aos-duration="2500"
             lg={6}
             md={8}
-            className="my-4 position-relative "
+            className=" position-relative "
           >
             <img
               className="positionimg13 position-absolute"
@@ -93,7 +93,7 @@ const Update = () => {
               >
                 Cards
               </h3>
-              <p className=" color_lightgray ff_Inter fs_sm fw-normal leading-150 mb-0 mt-2 pt-1">
+              <p className=" color_lightgray update_pera ff_Inter fs_sm fw-normal leading-150 mb-0 mt-2 pt-1">
                 Et tempor justo aliquam orci augue vitae fringilla purus eget.
                 Id vitae odio consequat aliquet volutpat convallis mi tortor.
                 Eget mattis malesuada commodo urnavolutpat nisi rutrum leo.
