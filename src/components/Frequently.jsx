@@ -16,10 +16,10 @@ const Frequently = () => {
         <div className="d-flex justify-content-center mb-2">
           <Bluesvg />
         </div>
-        <h2 className="text-center text_lightblack fs_lg fw-medium ff_outfit">
+        <h2 className="text-center text_lightblack fs_lg fw-medium ff_outfit lineheight_normal mb-2">
           Frequently Awesome Questions
         </h2>
-        <Row className="align-items-center  py-lg-4">
+        <Row className="align-items-center py-sm-5">
           <Col
             data-aos-duration="2000"
             data-aos="zoom-out-right"
@@ -30,7 +30,7 @@ const Frequently = () => {
             <img className="w-100" src={Frequently_img} alt="Frequently_img" />
           </Col>
           <Col data-aos-duration="2000" data-aos="zoom-out-left" lg={7}>
-            <div className="ps-md-4 pt-sm-5">
+            <div className="ps-md-4 ">
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0" className="w-100 bg-transparent">
                   <Accordion.Header>

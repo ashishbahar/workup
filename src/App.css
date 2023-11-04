@@ -226,7 +226,7 @@
     background-color: transparent !important;
     font-family: 'Outfit' !important;
     box-shadow: none !important;
-    padding: 10px 0px 17px 0px !important;
+    padding: 18px 0px 17px 0px !important;
     border-bottom: none !important;
 
 }
@@ -236,10 +236,6 @@
 
 }
 
-/* .accordion-button:not(.collapsed)::after {
-    transform: rotate(-90deg) !important;
-    margin-bottom: -50px;
-  } */
 
 .accordion-button {
     padding: 18px 0px 18px 0px !important;
@@ -247,6 +243,7 @@
     font-weight: 500 !important;
     font-family: 'Outfit' !important;
     background-color: transparent !important;
+    line-height: normal !important;
     color: rgba(0, 0, 0, 0.70);
     border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
 }
@@ -260,6 +257,7 @@
     font-weight: 400 !important;
     font-family: 'Inter' !important;
     font-size: 16px !important;
+    line-height: 169.523% !important;
     color: rgba(0, 0, 0, 0.70) !important;
     background-color: transparent !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
