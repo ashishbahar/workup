@@ -397,6 +397,10 @@
     line-height: 150%;
 }
 
+.lineheight_copy {
+    line-height: 32px;
+}
+
 .Footer_copyright {
     color: rgba(255, 255, 255, 0.50);
     font-family: Open Sans;
@@ -418,7 +422,7 @@
 }
 
 .link:hover {
-    transform: translateY(-8px);
+    transform: translateY(-4px);
 }
 
 /* FOOTER END */
