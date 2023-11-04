@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import desktop from "../assets/images/png/desktop.png";
 import linearimg from "../assets/images/png/secondsecposition1.png";
 import linearcircle from "../assets/images/png/linearcircle.png";
-import Dots3 from "../assets/images/Webp/Dots_Sol.webp";
+import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 const Update = () => {
   const [first, setfirst] = useState(0);
   return (

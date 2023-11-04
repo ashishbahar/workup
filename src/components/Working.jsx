@@ -1,7 +1,7 @@
 import React from "react";
 import { BlueWorking, WorkingLine } from "./Iconsvg";
 import { Col, Container, Row } from "react-bootstrap";
-import Workings from "../assets/images/Webp/WorkingGroup.webp";
+import Workings from "../assets/images/webp/WorkingGroup.webp";
 import vector from "../assets/images/png/Vector_working.png";
 import { WorkingData } from "./Helper";
 

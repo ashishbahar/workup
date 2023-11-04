@@ -272,8 +272,8 @@
     --bs-accordion-inner-border-radius: 0px !important;
     --bs-accordion-btn-color: rgba(0, 0, 0, 0.70) !important;
     --bs-accordion-btn-bg: black !important;
-    --bs-accordion-btn-icon: url(./assets/images/Webp/plus.webp) !important;
-    --bs-accordion-btn-active-icon: url(./assets/images/Webp/Sub.webp) !important;
+    --bs-accordion-btn-icon: url(./assets/images/webp/plus.webp) !important;
+    --bs-accordion-btn-active-icon: url(./assets/images/webp/Sub.webp) !important;
     --bs-accordion-btn-focus-border-color: none !important;
     --bs-accordion-btn-focus-box-shadow: none !important;
 }

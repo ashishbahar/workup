@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import MISSIONS from "../assets/images/Webp/Missions.webp";
-import VISION from "../assets/images/Webp/Vision.webp";
-import VALUES from "../assets/images/Webp/Values.webp";
-import Dots1 from "../assets/images/Webp/Dots_one.webp";
-import Dots2 from "../assets/images/Webp/Dots_Two.webp";
-import Dots3 from "../assets/images/Webp/Dots_Sol.webp";
-import zigzag from "../assets/images/Webp/zigzag.webp";
+import MISSIONS from "../assets/images/webp/Missions.webp";
+import VISION from "../assets/images/webp/Vision.webp";
+import VALUES from "../assets/images/webp/Values.webp";
+import Dots1 from "../assets/images/webp/Dots_one.webp";
+import Dots2 from "../assets/images/webp/Dots_Two.webp";
+import Dots3 from "../assets/images/webp/Dots_Sol.webp";
+import zigzag from "../assets/images/webp/zigzag.webp";
 
 const Solution = () => {
   return (

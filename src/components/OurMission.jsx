@@ -1,8 +1,8 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import Group from "../assets/images/Webp/group_discuss.webp";
-import Group_two from "../assets/images/Webp/group_Two.webp";
-import Three_dots from "../assets/images/Webp/Three_Dots.webp";
+import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import Group from "../assets/images/webp/group_discuss.webp"
+import Group_two from "../assets/images/webp/group_Two.webp"
+import Three_dots from "../assets/images/webp/Three_Dots.webp"
 
 const OurMission = () => {
   return (

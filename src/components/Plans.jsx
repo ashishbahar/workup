@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { LinearCheckbox } from "./Icon";
-import Dots3 from "../assets/images//Webp/Dots_Sol.webp";
+import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 import lineardots from "../assets/images/png/lineardots.png";
 const Plans = () => {
   return (
