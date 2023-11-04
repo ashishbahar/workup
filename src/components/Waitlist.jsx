@@ -12,7 +12,7 @@ const Waitlist = (props) => {
           className={`WaitList_box mx-auto position-relative z-2 overflow-hidden ${props.maxwidth}`}
         >
           <h2 className=" pb-1 mb-0 text-center position-relative z-1 leading_120 ff_outfit fw-medium fs_lg  text_white text-capitalize">
-            Join our waitlist
+            Join  <span>{props.text}</span>
           </h2>
           <div className="hero_input position-relative mt-3 z-1    sm:mt-5  mx-auto py-2 ps-3 sm:ps-4 pe-2">
             <form action="">

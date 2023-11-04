@@ -558,6 +558,11 @@ input {
         justify-content: center;
     }
 
+    .update_pera {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .rightarrow_postion {
         right: 2%;
 
