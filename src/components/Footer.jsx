@@ -55,31 +55,31 @@ const Footer = () => {
             <Row className="mt-5 mt-lg-0 w-100 px-0 justify-content-between">
               <Col className="d-flex justify-content-lg-end">
                 <ul className="p-0">
-                  <li>
-                    <a class="text-white fs_md fw-semibold text-capitalize ff_opensans">
+                  <li className=" lineheight_normal">
+                    <a class="text-white fs_md fw-semibold text-capitalize ff_opensans ">
                       Home
                     </a>
                   </li>
-                  <li class="pt-2">
+                  <li class="pt-2 lineheight_normal">
                     <a
                       href="#"
-                      class="ff_Inter fs_xsm text-white fw-medium text-capitalize hover_line"
+                      class="ff_Inter fs_xsm text-white fw-medium text-capitalize hover_line "
                     >
                       Chatroom
                     </a>
                   </li>
-                  <li class="pt-2 mt-1">
+                  <li class="pt-2 lineheight_normal mt-1">
                     <a
                       href="#"
-                      class="ff_Inter fs_xsm text-white fw-medium text-capitalize hover_line"
+                      class="ff_Inter fs_xsm text-white fw-medium text-capitalize hover_line "
                     >
                       Invest
                     </a>
                   </li>
-                  <li class="pt-2 mt-1">
+                  <li class="pt-2 lineheight_normal mt-1">
                     <a
                       href="#"
-                      class="ff_Inter fs_xsm text-white fw-medium text-capitalize hover_line"
+                      class="ff_Inter fs_xsm text-white fw-medium text-capitalize hover_line "
                     >
                       Become a cofounder Us?
                     </a>
@@ -88,39 +88,39 @@ const Footer = () => {
               </Col>
               <Col className="d-flex justify-content-lg-end">
                 <ul className="p-0">
-                  <li>
-                    <a class="text-white fs_md fw-semibold text-capitalize ff_opensans">
+                  <li className=" lineheight_normal">
+                    <a class="text-white fs_md fw-semibold text-capitalize ff_opensans ">
                       Links
                     </a>
                   </li>
-                  <li class="pt-2">
+                  <li class="pt-2 lineheight_normal">
                     <a
                       href="#"
-                      class="ff_inter text-xs lg:text-base text-white opacity-70 font-normal hover:opacity-100 duration-300 hover_line"
+                      class="ff_inter text-xs lg:text-base text-white opacity-70 font-normal hover:opacity-100 duration-300 hover_line "
                     >
                       Contact us
                     </a>
                   </li>
-                  <li class="pt-2 mt-1">
+                  <li class="pt-2 lineheight_normal mt-1">
                     <a
                       href="#"
-                      class="ff_Inter fs_xsm text-white fw-medium hover_line"
+                      class="ff_Inter fs_xsm text-white fw-medium hover_line "
                     >
                       FAQ
                     </a>
                   </li>
-                  <li class="pt-2 mt-1">
+                  <li class="pt-2 lineheight_normal mt-1">
                     <a
                       href="#"
-                      class="ff_Inter fs_xsm text-white fw-medium hover_line"
+                      class="ff_Inter fs_xsm text-white fw-medium hover_line "
                     >
                       Privacy
                     </a>
                   </li>
-                  <li class="pt-2 mt-1">
+                  <li class="pt-2 lineheight_normal mt-1">
                     <a
                       href="#"
-                      class="ff_Inter fs_xsm text-white fw-medium hover_line"
+                      class="ff_Inter fs_xsm text-white fw-medium hover_line "
                     >
                       Terms & conditions
                     </a>
@@ -133,7 +133,7 @@ const Footer = () => {
       </Container>
       <div className="pb-4 px-3 position-relative z-2">
         <div className="Fotter_line" ></div>
-        <div className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd  mt-3">
+        <div className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd mt-3 ">
           Copyright 2023 JesMor Enterprises, All Rights Reserved.
         </div>
       </div>

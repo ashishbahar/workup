@@ -11,7 +11,7 @@ const OurMission = () => {
       <img className="Sol_dots_abs" src={Three_dots} alt="#" />
       <Container className="custom_container position-relative z-1">
         <Row className="align-items-center justify-content-center Our_padding">
-          <Col
+          <Col className='mb-5 mb-lg-0'
             data-aos="fade-right"
             data-aos-duration="2000"
             lg={6}
