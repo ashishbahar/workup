@@ -1,7 +1,7 @@
 import React from "react";
 import { BlueWorking, WorkingLine } from "./Iconsvg";
 import { Col, Container, Row } from "react-bootstrap";
-import Workings from "../assets/images/webp/WorkingGroup.webp";
+import Workings from "../assets/images/Webp/WorkingGroup.webp";
 import vector from "../assets/images/png/Vector_working.png";
 import { WorkingData } from "./Helper";
 
@@ -11,7 +11,7 @@ const Working = () => {
       <img className=" abs_vector" src={vector} alt="vector" />
 
       <Container className="custom_container py-5">
-        <div className="d-flex justify-content-center mb-2">
+        <div className="d-flex justify-content-center mb-2 pt-1">
           <BlueWorking />
         </div>
         <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center mb-0">
