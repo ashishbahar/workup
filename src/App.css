@@ -441,6 +441,15 @@
 
 }
 
+h2 {
+    margin-bottom: 0px !important;
+}
+
+.nav_btn {
+    width: 95px;
+    height: 43px;
+    line-height: 19.36px;
+}
 
 @media (min-width:992px) {
     .Ourmax {

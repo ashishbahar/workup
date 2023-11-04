@@ -85,7 +85,9 @@
 
 .hero_btn {
     border-radius: 35px;
-    padding: 7px 23px 10px;
+    width: 69.76px;
+    height: 36px;
+    padding-bottom: 2px;
     background: linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%);
 }
 
@@ -117,6 +119,12 @@ input {
     border-radius: 100px;
     border: 1px solid var(--Linear-two, #994FFF);
     background: #FFF;
+    height: 52px;
+    padding-left: 22px;
+}
+
+.hero_max_pera {
+    max-width: 367px;
 }
 
 .slider_input {
@@ -169,7 +177,7 @@ input {
 }
 
 .w-85 {
-    width: 85%;
+    width: 83.5%;
 }
 
 .blue_line {

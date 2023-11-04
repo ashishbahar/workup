@@ -11,8 +11,8 @@ const Header = () => {
 
   return (
     <nav className="nav_bg position-relative z_index_12 z-2">
-      <Container className=" custom_container py-4">
-        <div className="d-flex justify-content-between align-items-center py-1">
+      <Container className=" custom_container py-4  px-xl-0">
+        <div className="d-flex justify-content-between align-items-center">
           <img
             className="cursor_pointer logo_max_width"
             src={pagelogo}
@@ -52,7 +52,7 @@ const Header = () => {
 
             <button
               onClick={() => setNav(true)}
-              className="ms-lg-3 text_blue ff_Inter fs_sm fw-semibold text-capitalize transition_3_linear border-0 outline-0 bg-white py_12 px-4 rounded-5 nav_btn_color"
+              className="ms-lg-3 text_blue ff_Inter fs_sm fw-semibold text-capitalize transition_3_linear border-0 outline-0 bg-white nav_btn rounded-5 nav_btn_color"
             >
               Log In
             </button>
