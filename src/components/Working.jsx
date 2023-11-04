@@ -7,17 +7,17 @@ import { WorkingData } from "./Helper";
 
 const Working = () => {
   return (
-    <section className="Bg-sky py-lg-2 position-relative">
+    <section className="Bg-sky pt-1 position-relative pb-4">
       <img className=" abs_vector" src={vector} alt="vector" />
 
-      <Container className="custom_container py-5">
-        <div className="d-flex justify-content-center mb-2 pt-1">
+      <Container className="custom_container pt-5">
+        <div className="d-flex justify-content-center mb-2">
           <BlueWorking />
         </div>
-        <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center mb-0">
+        <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center mb-0 lineheight_normal">
           How it’s working
         </h2>
-        <Row className="align-items-center py-2 my-1">
+        <Row className="align-items-center pt-2 mt-1">
           <Col
             data-aos="zoom-in-right"
             data-aos-duration="2000"
@@ -43,10 +43,10 @@ const Working = () => {
                     <div className="d-flex gap-4">
                       <div>{obj.SvgIcon}</div>
                       <div>
-                        <h2 className="ff_outfit fs_md fw-medium text_lightblack line-height-Sign">
+                        <h2 className="ff_outfit fs_md fw-medium text_lightblack line-height-Sign mb-1">
                           {obj.Heading}
                         </h2>
-                        <p className="ff_Inter fs_sm fw-normal text-black Para_working_width mb-0">
+                        <p className="ff_Inter fs_sm fw-normal text-black Para_working_width line-height-para opacity_07 mb-0">
                           {obj.Para}
                         </p>
                       </div>
