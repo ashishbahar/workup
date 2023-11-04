@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import MISSIONS from "../assets/images/webp/Missions.webp";
-import VISION from "../assets/images/webp/Vision.webp";
-import VALUES from "../assets/images/webp/Values.webp";
-import Dots1 from "../assets/images/webp/Dots_one.webp";
-import Dots2 from "../assets/images/webp/Dots_Two.webp";
-import Dots3 from "../assets/images/webp/Dots_Sol.webp";
-import zigzag from "../assets/images/webp/zigzag.webp";
+import MISSIONS from "../assets/images/Webp/Missions.webp";
+import VISION from "../assets/images/Webp/Vision.webp";
+import VALUES from "../assets/images/Webp/Values.webp";
+import Dots1 from "../assets/images/Webp/Dots_one.webp";
+import Dots2 from "../assets/images/Webp/Dots_Two.webp";
+import Dots3 from "../assets/images/Webp/Dots_Sol.webp";
+import zigzag from "../assets/images/Webp/zigzag.webp";
 
 const Solution = () => {
   return (
@@ -24,10 +24,10 @@ const Solution = () => {
           <Col data-aos="fade-down-right" data-aos-duration="2000" lg={6}>
             <div className=" position-relative z-1 text-center pt-3 pt-lg-0 mt-4 mt-lg-0 text-lg-start">
               <div className="line_Blue"></div>
-              <h2 className="text_lightblack fs_lg fw-medium ff_Raleway">
+              <h2 className="text_lightblack fs_lg fw-medium ff_Raleway lineheight_normal mb-3">
                 Solution
               </h2>
-              <p className="Paragraph Solution_max">
+              <p className="Paragraph Solution_max mb-0">
                 We grasp the struggles of business finance management and the
                 risks of losing control. WorkUp's AI automation solution
                 restores control, automating tax payments, securing profits, and
