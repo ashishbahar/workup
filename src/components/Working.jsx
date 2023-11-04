@@ -17,7 +17,7 @@ const Working = () => {
         <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center mb-0 lineheight_normal">
           How it’s working
         </h2>
-        <Row className="align-items-center pt-2 mt-1">
+        <Row className=" pt-2 mt-1">
           <Col
             data-aos="zoom-in-right"
             data-aos-duration="2000"
@@ -25,13 +25,13 @@ const Working = () => {
             md={10}
             className="d-flex  mx-auto mt-5 mt-lg-0 justify-content-start"
           >
-            <img className="width-83 mx_auto" src={Workings} alt="workings" />
+            <img className="width-83 mx_auto mb-1" src={Workings} alt="workings" />
           </Col>
           <Col
             lg={6}
             data-aos="zoom-in-left"
             data-aos-duration="2000"
-            className="position-relative pt-5 mt-sm-4"
+            className="position-relative pt-5 mt-sm-4 mb-4"
           >
             <div className="positon_line d-none d-sm-block">
               <WorkingLine />
