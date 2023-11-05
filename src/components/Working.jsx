@@ -14,7 +14,7 @@ const Working = () => {
         <div className="d-flex justify-content-center mb-2">
           <BlueWorking />
         </div>
-        <h2 className="ff_outfit fw-medium fs_lg text-lightblack text-center mb-0 lineheight_normal">
+        <h2 className="ff_outfit fw-medium fs_lg text_lightblack text-center mb-0 lineheight_normal">
           How it’s working
         </h2>
         <Row className=" pt-2 mt-1">
