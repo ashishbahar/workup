@@ -51,7 +51,7 @@ const Update = () => {
             </p>
           </div>
         </div>
-        <Row className="py-xl-5 py-xl-4 my-xl-4 my-lg-5  justify-content-lg-between justify-content-center align-items-center">
+        <Row className="py-xl-5 py-xl-4 my-xl-4 my-lg-5 pt-4 pt-xl-0 justify-content-lg-between justify-content-center align-items-center">
           <Col
             data-aos="zoom-in-right"
             data-aos-duration="2500"
