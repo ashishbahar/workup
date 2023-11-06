@@ -5,7 +5,7 @@ import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 import linearimg from "../assets/images/png/secondsecposition.png";
 const Feature = () => {
   return (
-    <div className=" pb-5 pt-xl-5 mb-2 position-relative ">
+    <div className=" pb-5 pt-4 pt-xl-5 mb-2 position-relative ">
       <img
         className=" position-absolute positionimg6 start-0"
         src={Dots3}

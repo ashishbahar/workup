@@ -16,7 +16,7 @@ const Plans = () => {
         src={lineardots}
         alt="lineardots"
       />
-      <Container className="pt-xl-5 pt-4 mt-4  mt-lg-0 custom_container position-relative z-1">
+      <Container className="pt-xl-5 pt-md-4 mt-md-4   mt-lg-0 custom_container position-relative z-1">
         <div className="py-lg-5 pt-5 ">
           <>
             <div className="blue_line mb-2 mx-auto rounded-2"></div>
@@ -26,7 +26,7 @@ const Plans = () => {
           </>
           <div className=" pt-1">
             
-            <Row className=" my-xl-4 justify-content-center py-lg-2">
+            <Row className=" my-xl-4  py-4 justify-content-center py-lg-2">
               <Col
                 data-aos="zoom-in-right"
                 data-aos-duration="2000"

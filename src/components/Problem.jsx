@@ -65,7 +65,7 @@ const Problem = () => {
       <Container
         data-aos-duration="2000"
         data-aos="zoom-in-right"
-        className=" custom_container py-5 my-4 "
+        className=" custom_container py-5 mb-md-4 mt-4 "
       >
         <div>
           <div className="blue_line mb-2 mx-auto rounded-2"></div>

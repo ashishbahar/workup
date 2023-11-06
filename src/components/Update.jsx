@@ -18,7 +18,7 @@ const Update = () => {
         src={Dots3}
         alt="Dots3"
       />
-      <Container className=" pt-5 pb-1 mb-4 mt-3  position-relative z-1  custom_container">
+      <Container className=" pt-md-5 pt-4 pb-1 mb-4 mt-3  position-relative z-1  custom_container">
         <div className="overflow-scroll pt-1  example ">
           <div
             className={`d-flex  pb-2  update_line justify-content-between mx-auto ${
@@ -51,7 +51,7 @@ const Update = () => {
             </p>
           </div>
         </div>
-        <Row className="py-xl-5 py-4 my-4 my-lg-5  justify-content-lg-between justify-content-center align-items-center">
+        <Row className="py-xl-5 py-md-4 my-4 my-lg-5  justify-content-lg-between justify-content-center align-items-center">
           <Col
             data-aos="zoom-in-right"
             data-aos-duration="2500"
