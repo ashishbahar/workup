@@ -1,10 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Facebook, FooterLogo, Instagram, Linkedin, Twitter } from "./Iconsvg";
-
-import Vector from "../assets/images/webp/Footer_vector.webp"
+import Vector from "../assets/images/webp/Footer_vector.webp";
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <section class="bg-Footer position-relative">
       <img className="position_Footer" src={Vector} alt="vector" />
@@ -132,9 +133,11 @@ const Footer = () => {
         </Row>
       </Container>
       <div className="pb-4 position-relative z-2">
-        <div className="Fotter_line" ></div>
+        <div className="Fotter_line"></div>
         <div className="mt-3 px-5 ">
-          <p className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd">Copyright 2023 JesMor Enterprises, All Rights Reserved.</p>
+          <p className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd">
+            Copyright {year} JesMor Enterprises, All Rights Reserved.
+          </p>
         </div>
       </div>
     </section>

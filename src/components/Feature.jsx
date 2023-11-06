@@ -55,7 +55,7 @@ const Feature = () => {
                         <p className=" text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
                           {Obj.Heading}
                         </p>
-                        <p className=" text_darkgray leading-150 ff_Inter fw-normal fs_sm text_ mb-0 pt-2">
+                        <p className=" text_darkgray feature_pera leading-150 ff_Inter fw-normal fs_sm text_ mb-0 pt-3">
                           {Obj.Para}
                         </p>
                       </div>
@@ -79,10 +79,10 @@ const Feature = () => {
                     >
                       {Obj.SvgIcon}
                       <div className=" pt-4">
-                        <p className=" text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
+                        <p className=" text_lightblack mb-0 leading_120  ff_outfit fs_md fw-medium text-capitalize">
                           {Obj.Heading}
                         </p>
-                        <p className=" text_darkgray leading-150 ff_Inter fw-normal fs_sm text_ mb-0 pt-2">
+                        <p className=" text_darkgray leading-150 feature_pera ff_Inter fw-normal fs_sm text_ mb-0 pt-3">
                           {Obj.Para}
                         </p>
                       </div>

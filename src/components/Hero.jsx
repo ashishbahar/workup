@@ -49,7 +49,7 @@ const Hero = () => {
         </p>
         <div className="hero_input position-relative mt-4 mt-lg-5   mx-auto py-2  sm:ps-4 pe-2">
           <div className="hero_shadow z-n1 position-absolute "></div>
-          <form action="">
+          <form action="" onSubmit={(e) => e.preventDefault()}>
             <input
               required
               type="email"

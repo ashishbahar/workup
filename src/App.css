@@ -460,6 +460,14 @@ h2 {
     line-height: 19.36px;
 }
 
+@media (min-width:1061px) {
+
+    .slider_arrow {
+        position: absolute;
+    }
+
+}
+
 @media (min-width:992px) {
     .Ourmax {
         max-width: 446.352px;

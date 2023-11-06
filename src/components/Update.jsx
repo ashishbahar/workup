@@ -73,21 +73,21 @@ const Update = () => {
           <Col lg={5} data-aos="zoom-in-right" data-aos-duration="2500">
             <div className="text-center text-lg-start">
               <h3
-                className={`ff_outfit fs_xlg fw-semibold text_lightblue lineheight_normal ${
+                className={`ff_outfit fs_xlg fw-semibold mb-0 text_lightblue lineheight_normal ${
                   first === 0 ? "d-block" : "d-none"
                 }`}
               >
                 Updated with your Dashboard
               </h3>
               <h3
-                className={`ff_outfit fs_xlg fw-semibold text_lightblue lineheight_normal ${
+                className={`ff_outfit fs_xlg fw-semibold mb-0 text_lightblue lineheight_normal ${
                   first === 1 ? "d-block" : "d-none"
                 }`}
               >
                 Accounts
               </h3>
               <h3
-                className={`ff_outfit fs_xlg fw-semibold text_lightblue lineheight_normal ${
+                className={`ff_outfit fs_xlg fw-semibold mb-0 text_lightblue lineheight_normal ${
                   first === 2 ? "d-block" : "d-none"
                 }`}
               >

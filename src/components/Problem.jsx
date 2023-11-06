@@ -76,7 +76,7 @@ const Problem = () => {
         <div className=" position-relative">
           <Slider ref={slider} {...settings}>
             <div className="px-12 py-5">
-              <div className=" slider_box   transition_3_linear">
+              <div className=" slider_box h-100   transition_3_linear">
                 <SpendControl />
                 <p className=" mt-3 mb-2 text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
                   Spend Control
@@ -88,7 +88,7 @@ const Problem = () => {
               </div>
             </div>
             <div className="px-12 py-5">
-              <div className=" slider_box   transition_3_linear">
+              <div className=" slider_box h-100   transition_3_linear">
                 <SpendControl />
                 <p className=" mt-3 mb-2 text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
                   Spend Control
@@ -100,7 +100,7 @@ const Problem = () => {
               </div>
             </div>{" "}
             <div className="px-12 py-5">
-              <div className=" slider_box   transition_3_linear">
+              <div className=" slider_box h-100   transition_3_linear">
                 <Forgotten />
                 <p className=" mt-3 mb-2 text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
                   Forgotten Taxes
@@ -112,7 +112,7 @@ const Problem = () => {
               </div>
             </div>{" "}
             <div className="px-12 py-5">
-              <div className=" slider_box   transition_3_linear">
+              <div className=" slider_box h-100   transition_3_linear">
                 <ManualTask />
                 <p className=" mt-3 mb-2 text_lightblack mb-0 leading_120 ff_outfit fs_md fw-medium text-capitalize">
                   Manual Tasks
@@ -124,25 +124,31 @@ const Problem = () => {
               </div>
             </div>
           </Slider>
-          <button
-            className="prevarow  slider_arrow rightarrow_postion"
-            onClick={() => slider?.current?.slickPrev()}
-          >
-            <RightIcon />
-          </button>
-          <button
-            className="nextarow slider_arrow  leftarrow_position"
-            onClick={() => slider?.current?.slickNext()}
-          >
-            <LeftIcon />
-          </button>
+          <div className=" text-center">
+            <button
+              className="nextarow slider_arrow  leftarrow_position"
+              onClick={() => slider?.current?.slickNext()}
+            >
+              <LeftIcon />
+            </button>
+            <button
+              className="prevarow  slider_arrow rightarrow_postion"
+              onClick={() => slider?.current?.slickPrev()}
+            >
+              <RightIcon />
+            </button>
+          </div>
         </div>
         <div className="slider_input position-relative mt-4  mt-md-2  mx-auto py-2 ps-3 sm:ps-4 pe-2">
-          <form action="" className=" d-flex justify-content-between">
+          <form
+            action=""
+            onSubmit={(e) => e.preventDefault()}
+            className=" d-flex justify-content-between"
+          >
             <input
               required
               type="email"
-              className="border-0 w_71 "
+              className="border-0 w_71  "
               placeholder="List Goes On"
             />
             <button className="slider_btn w_25 border-0">

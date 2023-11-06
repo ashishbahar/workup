@@ -186,6 +186,23 @@ input {
     width: 83.5%;
 }
 
+input {
+    padding-right: 16px;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
 .blue_line {
     width: 155px;
     height: 4px;
@@ -229,7 +246,6 @@ input {
     top: 50%;
     background: white;
     padding-right: 2px;
-    position: absolute;
     transform: translateY(-50%);
     border: 1px solid var(--black, #000);
 }
@@ -472,7 +488,8 @@ input {
     }
 
     .slider_arrow {
-        top: 95%;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .positionimg1 {
@@ -543,6 +560,7 @@ input {
 }
 
 @media (max-width: 992px) {
+
     .mobile_ul {
         position: fixed;
         backdrop-filter: blur(22px);
@@ -629,6 +647,12 @@ input {
 
     .leftarrow_position {
         left: 70%;
+    }
+
+    .feature_pera {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
