@@ -19,7 +19,7 @@ const Frequently = () => {
         <h2 className="text-center text_lightblack fs_lg fw-medium ff_outfit lineheight_normal mb-2">
           Frequently Awesome Questions
         </h2>
-        <Row className="align-items-center py-sm-5">
+        <Row className="align-items-center py-lg-5 ">
           <Col
             data-aos-duration="2000"
             data-aos="zoom-out-right"
