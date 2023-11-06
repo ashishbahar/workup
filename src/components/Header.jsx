@@ -27,7 +27,7 @@ const Header = () => {
           >
             <li onClick={() => setNav(true)} className="px-lg-3">
               <a
-                className="hover_line transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text-capitalize"
+                className="hover_line  transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text_increase text-capitalize"
                 href="#"
               >
                 Chat Room
@@ -35,7 +35,7 @@ const Header = () => {
             </li>
             <li onClick={() => setNav(true)} className="px-lg-3">
               <a
-                className="hover_line transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text-capitalize"
+                className="hover_line  transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text_increase text-capitalize"
                 href="#"
               >
                 Invest
@@ -43,7 +43,7 @@ const Header = () => {
             </li>
             <li onClick={() => setNav(true)} className="px-lg-3">
               <a
-                className="hover_line transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text-capitalize"
+                className="hover_line  transition_3_linear ff_outfit fs_sm text_black fw-medium opacity_07 text_increase text-capitalize"
                 href="#"
               >
                 Become a Co-Founder
@@ -52,7 +52,7 @@ const Header = () => {
 
             <button
               onClick={() => setNav(true)}
-              className="ms-lg-3 text_blue ff_Inter fs_sm fw-semibold text-capitalize transition_3_linear border-0 outline-0 bg-white nav_btn rounded-5 nav_btn_color"
+              className="ms-lg-3 text_blue  ff_Inter fs_sm fw-semibold text-capitalize transition_3_linear border-0 text_increase outline-0 bg-white nav_btn rounded-5 nav_btn_color"
             >
               Log In
             </button>

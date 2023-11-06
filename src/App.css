@@ -548,6 +548,10 @@ h2 {
         transform: translateX(-22px);
     }
 
+    .text_increase {
+        font-size: 20px !important;
+    }
+
     .mx_auto {
         margin-left: auto;
         margin-right: auto;
