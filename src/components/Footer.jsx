@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg={6} className="">
-            <Row className="mt-5 mt-lg-0 w-100 px-0 justify-content-between">
+            <Row className="mt-sm-5 mt-4 pt-3 pt-sm-0 mt-lg-0 w-100 px-0 justify-content-between">
               <Col className="d-flex justify-content-lg-end">
                 <ul className="p-0">
                   <li className=" lineheight_normal">
@@ -132,10 +132,10 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      <div className="pb-4 position-relative z-2">
+      <div className=" position-relative z-2">
         <div className="Fotter_line"></div>
-        <div className="mt-3 px-5 ">
-          <p className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd">
+        <div className="py-3 px-5 ">
+          <p className="text-center Footer_copyright mb-0 ff_opensans fw-semibold fs_xmd">
             Copyright {year} JesMor Enterprises, All Rights Reserved.
           </p>
         </div>

@@ -53,7 +53,7 @@ const Hero = () => {
             <input
               required
               type="email"
-              className="border-0  w_75 w-85"
+              className="border-0  w_75 input_width"
               placeholder="Enter email to join waitlist"
             />
             <button className="hero_btn w_25  border-0">

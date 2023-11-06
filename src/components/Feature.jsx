@@ -31,7 +31,7 @@ const Feature = () => {
         src={Dots3}
         alt="Dots9"
       />
-      <Container className=" custom_container  pb-4 pb-sm-5 pt-sm-4 mt-2 mb-sm-4 ">
+      <Container className=" custom_container pb-lg-5 pt-sm-4 mt-2 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">

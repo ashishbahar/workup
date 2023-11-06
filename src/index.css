@@ -182,7 +182,7 @@ input {
     bottom: -50%;
 }
 
-.w-85 {
+.input_width {
     width: 83.5%;
 }
 
@@ -629,6 +629,9 @@ input {
         left: 73%;
     }
 
+    .input_width {
+        width: 80.5%;
+    }
 }
 
 @media (max-width: 470px) {

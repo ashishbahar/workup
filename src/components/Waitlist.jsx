@@ -19,7 +19,7 @@ const Waitlist = (props) => {
               <input
                 required
                 type="email"
-                className="border-0 w-85 w_75 w-85"
+                className="border-0 input_width w_75 w-85"
                 placeholder="Enter your email"
               />
               <button className="hero_btn w_25  border-0">
