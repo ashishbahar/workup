@@ -135,6 +135,11 @@
     left: 0%;
 }
 
+.Our_padding {
+    padding-top: 84px ;
+    padding-bottom: 85px;
+}
+
 
 /* OUR_END */
 
@@ -213,6 +218,11 @@
     position: absolute;
     right: 0%;
     bottom: 0%;
+}
+
+.Solution_padding {
+    padding-top: 80px;
+    padding-bottom: 95px;
 }
 
 /* SOLUTION_END */
@@ -478,16 +488,6 @@ h2 {
         max-width: 459px;
     }
 
-    .Our_padding {
-        padding-top: 84px !important;
-        padding-bottom: 85px !important;
-    }
-
-    .Solution_padding {
-        padding-top: 80px;
-        padding-bottom: 95px;
-    }
-
     .Para_working_width {
         max-width: 387px;
     }
@@ -507,6 +507,16 @@ h2 {
         position: absolute;
         left: 2.5%;
         top: 25%;
+    }
+
+    .Our_padding {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .Solution_padding {
+        padding-top: 72px;
+        padding-bottom: 72px;
     }
 
 }
@@ -548,6 +558,12 @@ h2 {
     .Footer_padding {
         padding-bottom: 24px;
     }
+
+    .Solution_padding {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
 }
 
 @media (max-width:576px) {
