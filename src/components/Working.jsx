@@ -10,7 +10,7 @@ const Working = () => {
     <section className="Bg-sky pt-1 position-relative pb-4">
       <img className=" abs_vector" src={vector} alt="vector" />
 
-      <Container className="custom_container pt-5">
+      <Container className="custom_container pt-5 ">
         <div className="d-flex justify-content-center mb-2">
           <BlueWorking />
         </div>
@@ -23,7 +23,7 @@ const Working = () => {
             data-aos-duration="2000"
             lg={6}
             md={10}
-            className="d-flex mx-auto mt-5 mt-lg-0 justify-content-start"
+            className="d-flex mx-auto mt-4 mt-lg-0 justify-content-start"
           >
             <img className="width-90 mx_auto mb-1" src={Workings} alt="workings" />
           </Col>
@@ -31,7 +31,7 @@ const Working = () => {
             lg={6}
             data-aos="zoom-in-left"
             data-aos-duration="2000"
-            className="position-relative pt-5 mt-sm-4 mb-4 "
+            className="position-relative pt-lg-5 my-4 "
           >
             <div className="position_line d-none d-sm-block">
               <WorkingLine />
