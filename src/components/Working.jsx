@@ -23,30 +23,30 @@ const Working = () => {
             data-aos-duration="2000"
             lg={6}
             md={10}
-            className="d-flex  mx-auto mt-5 mt-lg-0 justify-content-start"
+            className="d-flex mx-auto mt-5 mt-lg-0 justify-content-start"
           >
-            <img className="width-83 mx_auto mb-1" src={Workings} alt="workings" />
+            <img className="width-90 mx_auto mb-1" src={Workings} alt="workings" />
           </Col>
           <Col
             lg={6}
             data-aos="zoom-in-left"
             data-aos-duration="2000"
-            className="position-relative pt-5 mt-sm-4 mb-4"
+            className="position-relative pt-5 mt-sm-4 mb-4 "
           >
-            <div className="positon_line d-none d-sm-block">
+            <div className="position_line d-none d-sm-block">
               <WorkingLine />
             </div>
             {WorkingData &&
               WorkingData.map((obj, i) => {
                 return (
-                  <div className="BoxWorking mb-3 ms-sm-4 ms-lg-0">
+                  <div className="BoxWorking mb-3 ms-lg-5 ms-sm-4 d-inline-lg-block">
                     <div className="d-flex gap-4">
                       <div>{obj.SvgIcon}</div>
                       <div>
                         <h2 className="ff_outfit fs_md fw-medium text_lightblack line-height-Sign mb-1">
                           {obj.Heading}
                         </h2>
-                        <p className="ff_Inter fs_sm fw-normal text-black Para_working_width line-height-para opacity_07 mb-0">
+                        <p className="ff_Inter fs_sm fw-normal text-black Para_working_width line-height-para opacity_07 mb-0 pe-2">
                           {obj.Para}
                         </p>
                       </div>

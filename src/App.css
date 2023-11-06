@@ -335,14 +335,14 @@
 
 
 
-.positon_line {
+.position_line {
     position: absolute;
-    left: -6%;
+    left: 2.5%;
     top: 25%;
 }
 
-.width-83 {
-    width: 83%;
+.width-90 {
+    width: 90%;
 }
 
 /* WORKING END  */
@@ -494,9 +494,9 @@ h2 {
         transform: translateX(-60px);
     }
 
-    .positon_line {
+    .position_line {
         position: absolute;
-        left: -7%;
+        left: 2.5%;
         top: 25%;
     }
 
@@ -525,9 +525,9 @@ h2 {
         padding-bottom: 45px;
     }
 
-    .positon_line {
+    .position_line {
         position: absolute;
-        left: -2%;
+        left: -1.5%;
         top: 25%;
     }
 
@@ -541,8 +541,6 @@ h2 {
     .w-lg-position {
         width: 44%;
     }
-
-
 
     .Vision_translatey {
         transform: translateY(-12px);

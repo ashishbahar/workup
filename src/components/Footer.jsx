@@ -96,7 +96,7 @@ const Footer = () => {
                   <li class="pt-2 lineheight_normal">
                     <a
                       href="#"
-                      class="ff_inter text-xs lg:text-base text-white opacity-70 font-normal hover:opacity-100 duration-300 hover_line "
+                      class="ff_Inter text-xs lg:text-base text-white opacity-70 font-normal hover:opacity-100 duration-300 hover_line "
                     >
                       Contact us
                     </a>
@@ -133,8 +133,8 @@ const Footer = () => {
       </Container>
       <div className="pb-4 position-relative z-2">
         <div className="Fotter_line" ></div>
-        <div className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd mt-3 ">
-          <p className="px-5">Copyright 2023 JesMor Enterprises, All Rights Reserved.</p>
+        <div className="mt-3 px-5 ">
+          <p className="text-center Footer_copyright ff_opensans fw-semibold fs_xmd">Copyright 2023 JesMor Enterprises, All Rights Reserved.</p>
         </div>
       </div>
     </section>
