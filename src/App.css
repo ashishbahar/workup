@@ -136,7 +136,7 @@
 }
 
 .Our_padding {
-    padding-top: 84px ;
+    padding-top: 84px;
     padding-bottom: 85px;
 }
 
@@ -560,6 +560,10 @@ h2 {
     .Our_padding {
         padding-top: 44px;
         padding-bottom: 45px;
+    }
+
+    .Animation {
+        max-width: 200px;
     }
 
     .position_line {
