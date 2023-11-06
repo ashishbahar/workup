@@ -51,7 +51,7 @@ const Problem = () => {
     ],
   };
   return (
-    <div className="py-lg-5 mb-lg-3 position-relative  ">
+    <div className="py-xl-5 mb-lg-3 position-relative  ">
       <img
         className=" position-absolute positionimg10"
         src={positionimg2}

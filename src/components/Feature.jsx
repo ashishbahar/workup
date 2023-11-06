@@ -5,7 +5,7 @@ import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 import linearimg from "../assets/images/png/secondsecposition.png";
 const Feature = () => {
   return (
-    <div className=" pb-5 pt-5 mb-2 position-relative ">
+    <div className=" pb-5 pt-xl-5 mb-2 position-relative ">
       <img
         className=" position-absolute positionimg6 start-0"
         src={Dots3}
@@ -31,7 +31,7 @@ const Feature = () => {
         src={Dots3}
         alt="Dots9"
       />
-      <Container className=" custom_container pb-lg-5 pt-sm-4 mt-2 mb-sm-4 ">
+      <Container className=" custom_container pb-xl-5 pt-sm-4 mt-2 mb-sm-4 ">
         <div className=" text-center">
           <div className="blue_line mb-2 mx-auto rounded-2"></div>
           <h2 className=" leading_120 ff_outfit fw-medium fs_lg  text_lightblack text-capitalize">
@@ -40,7 +40,7 @@ const Feature = () => {
           <Row
             data-aos="fade-right"
             data-aos-duration="2000"
-            className="  position-relative z-1 pt-4 mt-sm-2 justify-content-center"
+            className="  position-relative z-1 pt-xl-4 mt-sm-2 justify-content-center"
           >
             {FeatureDatafirstline &&
               FeatureDatafirstline.map((Obj, i) => {

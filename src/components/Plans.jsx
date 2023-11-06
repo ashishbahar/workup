@@ -5,7 +5,7 @@ import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 import lineardots from "../assets/images/png/lineardots.png";
 const Plans = () => {
   return (
-    <div className=" pb-4 mt-1 position-relative ">
+    <div className=" pb-xl-4 mt-1 position-relative ">
       <img
         className=" position-absolute  bottom-50 start-0"
         src={Dots3}
@@ -16,7 +16,7 @@ const Plans = () => {
         src={lineardots}
         alt="lineardots"
       />
-      <Container className="pt-lg-5 mt-4  mt-lg-0 custom_container position-relative z-1">
+      <Container className="pt-xl-5 pt-4 mt-4  mt-lg-0 custom_container position-relative z-1">
         <div className="py-lg-5 pt-5 ">
           <>
             <div className="blue_line mb-2 mx-auto rounded-2"></div>
@@ -26,7 +26,7 @@ const Plans = () => {
           </>
           <div className=" pt-1">
             
-            <Row className=" my-lg-4 justify-content-center py-lg-2">
+            <Row className=" my-xl-4 justify-content-center py-lg-2">
               <Col
                 data-aos="zoom-in-right"
                 data-aos-duration="2000"

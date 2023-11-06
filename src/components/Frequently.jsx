@@ -12,14 +12,14 @@ const Frequently = () => {
         src={vectorFreq}
         alt="vectorFreq"
       />
-      <Container className="custom_container mt-3 mt-md-5">
+      <Container className="custom_container mt-4 mt-xl-5">
         <div className="d-flex justify-content-center mb-2">
           <Bluesvg />
         </div>
         <h2 className="text-center text_lightblack fs_lg fw-medium ff_outfit lineheight_normal mb-2">
           Frequently Awesome Questions
         </h2>
-        <Row className="align-items-center py-lg-5 ">
+        <Row className="align-items-center py-xl-5 py-4 ">
           <Col
             data-aos-duration="2000"
             data-aos="zoom-out-right"

@@ -7,7 +7,7 @@ import Dots3 from "../assets/images/webp/Dots_Sol.webp";
 const Update = () => {
   const [first, setfirst] = useState(0);
   return (
-    <div className=" pb-4 pb-lg-0 pt-lg-5 mt-xl-5 position-relative">
+    <div className=" pb-4 pb-lg-0 pt-xl-5 mt-xl-5 position-relative">
       <img
         className=" position-absolute end-0 positionimg12"
         src={linearcircle}
@@ -51,7 +51,7 @@ const Update = () => {
             </p>
           </div>
         </div>
-        <Row className="py-lg-5 py-4 my-4 my-lg-5  justify-content-lg-between justify-content-center align-items-center">
+        <Row className="py-xl-5 py-4 my-4 my-lg-5  justify-content-lg-between justify-content-center align-items-center">
           <Col
             data-aos="zoom-in-right"
             data-aos-duration="2500"

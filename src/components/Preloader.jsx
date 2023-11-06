@@ -7,7 +7,7 @@ const Preloader = () => {
       <div className="d-flex justify-content-center flex-column">
        
         <div className="d-flex justify-content-center">
-        <img className="Animation w-25" src={Img_logo} alt="#" />
+        <img className="Animation  w-25" src={Img_logo} alt="#" />
        
       </div>
       </div>
