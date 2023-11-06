@@ -98,8 +98,8 @@ const Frequently = () => {
                 </Accordion.Item>
                 <Accordion.Item eventKey="5" className="w-100 bg-transparent ">
                   <Accordion.Header className="">
-                    Q6 How does WorkUp showcase its genuine commitment to
-                    businesses' success?
+                    Q6 How does WorkUp showcase on its genuineon commitment to
+                    businesses' success? 
                   </Accordion.Header>
                   <Accordion.Body className="width_FreQ">
                     WorkUp envisions becoming the ultimate integrated business
