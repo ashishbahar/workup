@@ -440,6 +440,7 @@
     align-items: center;
     position: fixed;
     right: 1.7%;
+    border: 1px solid white !important;
     bottom: 40px;
     z-index: 1;
     transition: all 500ms linear;
@@ -535,6 +536,10 @@ h2 {
         margin-left: auto;
         margin-right: auto
     }
+
+    .Footer_padding {
+        padding-bottom: 24px;
+    }
 }
 
 @media (max-width:576px) {
@@ -544,11 +549,6 @@ h2 {
 
     .Vision_translatey {
         transform: translateY(-12px);
-    }
-
-    .Footer_padding {
-
-        padding-bottom: 26px;
     }
 
     .working_svg {
