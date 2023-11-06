@@ -275,7 +275,7 @@ input {
     border-radius: 10px;
     border: 0.677px solid rgba(0, 0, 0, 0.10);
     background: var(--text-white);
-    padding: 29px 42px;
+    padding: 29px 30px;
     height: 100%;
 }
 
@@ -615,6 +615,10 @@ input {
         border: 1px solid rgba(0, 0, 0, 0.10);
     }
 
+    .BoxWorking {
+        padding: 16px 16px !important;
+     }
+
     .rightarrow_postion {
         right: 5%;
 
@@ -679,8 +683,8 @@ input {
         border: 1px solid rgba(0, 0, 0, 0.10);
     }
 
-    .ms_1 {
-        margin-left: 1px;
+    .plan_box {
+        padding: 29px 42px;
     }
 
     .feature_box {

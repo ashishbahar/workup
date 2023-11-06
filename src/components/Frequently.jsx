@@ -12,7 +12,7 @@ const Frequently = () => {
         src={vectorFreq}
         alt="vectorFreq"
       />
-      <Container className="custom_container mt-4 mt-xl-5">
+      <Container className="custom_container  mt-4 mt-md-5">
         <div className="d-flex justify-content-center mb-2">
           <Bluesvg />
         </div>

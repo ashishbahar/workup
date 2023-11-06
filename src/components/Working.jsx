@@ -40,7 +40,7 @@ const Working = () => {
               WorkingData.map((obj, i) => {
                 return (
                   <div className="BoxWorking mb-3 ms-lg-5 ms-sm-4 d-inline-lg-block">
-                    <div className="d-flex gap-4">
+                    <div className="d-flex gap-sm-4 gap-3">
                       <div>{obj.SvgIcon}</div>
                       <div>
                         <h2 className="ff_outfit fs_md fw-medium text_lightblack line-height-Sign mb-1">

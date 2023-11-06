@@ -495,11 +495,16 @@ h2 {
         position: absolute;
     }
 
+
 }
 
 @media (min-width:992px) {
     .Ourmax {
         max-width: 446.352px;
+    }
+
+    .ms_1 {
+        margin-left: 1px;
     }
 
     .Solution_max {
@@ -638,5 +643,18 @@ h2 {
         --fs-lg: 40px;
         --fs-2lg: 48px;
         --fs-xl: 54px;
+    }
+}
+
+@media (max-width: 374px) {
+    :root {
+        --fs-xsm: 14px;
+        --fs-sm: 14px;
+        --fs-xmd: 18px;
+        --fs-md: 20px;
+        --fs-xlg: 18px;
+        --fs-lg: 30px;
+        --fs-2lg: 41px;
+        --fs-xl: 40px;
     }
 }
